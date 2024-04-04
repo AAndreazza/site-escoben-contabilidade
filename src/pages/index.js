@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from '../components/pagina-inicial/Header'
+import Header from '../components/Header'
+import WhatsappIcon from '../components/WhatsappIcon'
 
 const Index = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            <Header></Header>
+            <WhatsappIcon></WhatsappIcon>
         </div>
     )
 }
