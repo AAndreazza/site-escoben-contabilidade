@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import FotoTeste from "../../images/testeServico.png"
 
 const Especialidades = () => {
     return (
