@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from 'gatsby'
 import Header from '../Header.js'
-import Footer from "../Footer";
+import Footer from "../Footer.js";
+import Formulario from "../Formulario.js";
 
 const PaginaEspecialidades = () => {
     return (
@@ -11,7 +12,7 @@ const PaginaEspecialidades = () => {
             {/* LOGO + TEXTO */}
 
             {/* SERVICOS + TOPICOS */}
-            <div class="mx-auto mt-16 max-w-5xl sm:mt-30">
+            <div class="mx-auto mt-16 max-w-5xl sm:mt-30 font-montserrat">
                 <div class="mx-auto isolate mt-10 grid max-w-80 grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:max-w-none xl:grid-cols-3">
 
                     <div class="rounded-3xl p-8 ring-2 ring-[#793486] shadow-2xl">
@@ -241,6 +242,11 @@ const PaginaEspecialidades = () => {
             </div>
 
             {/* FORMULARIO */}
+            <div class="mt-32 mx-auto text-center">
+                <h2 class="text-4xl sm:text-6xl font-bold text-[#e4d5e7]">ENTRE EM CONTATO</h2>
+                <p class="mt-0 text-xl font-semibold text-[#392c3b]">Mande-nos uma mensagem. Responderemos diretamente no seu e-mail!</p>
+            </div>
+            <Formulario></Formulario>
 
             <Footer></Footer>
         </div>
