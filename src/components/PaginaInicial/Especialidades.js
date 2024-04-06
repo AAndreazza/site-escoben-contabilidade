@@ -27,11 +27,11 @@ const Especialidades = () => {
                                 </Link>
                             </p>
                         </div>
-                        {/* CORRETO: */}
+                        
                         <div class="flex flex-col items-center justify-center">
                             <img class="h-20 w-20 mb-6" src="https://img.icons8.com/ios/100/service--v1.png" alt="service--v1" />
                             <h2 class="text-2xl font-semibold leading-7 text-gray-900">
-                                CONTABILIDADE PARA SERVIÇO
+                                CONTABILIDADE PARA SERVIÇOS
                             </h2>
                             <p class="mt-8">
                                 <Link

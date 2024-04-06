@@ -15,7 +15,6 @@ const Servicos = () => {
                 <div class="bg-white py-12">
                     <div class="mx-auto max-w-2xl lg:max-w-5xl">
                         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-                            {/* CORRETO */}
                             <div class="flex items-center">
                                 <img class="h-20 w-20 mr-6" src="https://img.icons8.com/ios/100/cash-receipt.png" alt="cash-receipt" />
                                 <div>
@@ -23,7 +22,6 @@ const Servicos = () => {
                                     <dd class="mt-2 text-lg leading-7 text-gray-800">Cumpriremos todas as suas obrigações contábeis e burocráticas.</dd>
                                 </div>
                             </div>
-                            {/* CORRETO */}
                             <div class="flex items-center">
                                 <img class="h-20 w-20 mr-6" src="https://img.icons8.com/ios/100/receipt-approved.png" alt="receipt-approved" />
                                 <div>
