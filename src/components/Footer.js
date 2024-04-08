@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Footer = () => {
     return (
-        <footer class="bg-[#e4d5e7] font-montserrat">
+        <footer class="bg-[#402347] font-montserrat">
             <h2 id="footer-heading" class="sr-only">Footer</h2>
             <div class="mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12">
                 <div class="xl:grid xl:grid-cols-3 xl:gap-8">

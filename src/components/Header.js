@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Disclosure } from '@headlessui/react'
+import { Link } from 'gatsby'
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -9,10 +11,10 @@ const NavBar = () => {
     <header class="absolute inset-x-0 top-0 z-50 bg-gray-100 mt-5 mx-5 lg:mx-20 rounded-full font-montserrat">
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
+          <Link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Escoben Contabilidade</span>
             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Logo da Escoben" />
-          </a>
+          </Link>
         </div>
 
         {/* Barra lateral - abrir */}
@@ -28,7 +30,7 @@ const NavBar = () => {
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-lg leading-6 text-gray-900">Sobre</a>
+          <Link to="../sobre" class="text-lg leading-6 text-gray-900">Sobre</Link>
 
           <div class="relative">
             <Disclosure>
@@ -44,9 +46,9 @@ const NavBar = () => {
 
                   <Disclosure.Panel className="text-gray-500">
                     <div class="absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</a>
+                      <Link to="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</Link>
+                      <Link to="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</Link>
+                      <Link to="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</Link>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -69,13 +71,13 @@ const NavBar = () => {
 
                   <Disclosure.Panel className="text-gray-500">
                     <div class="absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
-                      <a href="#" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</a>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Fiscal</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</Link>
+                      <Link to="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</Link>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -83,13 +85,13 @@ const NavBar = () => {
             </Disclosure>
           </div>
 
-          <a href="#" class="text-lg leading-6 text-gray-900">Blog</a>
-          <a href="#" class="text-lg leading-6 text-gray-900">Contato</a>
+          <Link to="../blog" class="text-lg leading-6 text-gray-900">Blog</Link>
+          <Link to="../contato" class="text-lg leading-6 text-gray-900">Contato</Link>
 
         </div>
         {/* PARTE LOGIN COM FLECHA 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" class="text-sm leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+          <Link to="#" class="text-sm leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>
         </div> */}
       </nav>
 
@@ -99,10 +101,10 @@ const NavBar = () => {
         <div class="fixed inset-0 z-10"></div>
         <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div class="flex items-center justify-between">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
+            <Link to="/" class="-m-1.5 p-1.5">
+              <span class="sr-only">Escoben Contabilidade</span>
               <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-            </a>
+            </Link>
             <button
               type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700"
               onClick={() => setIsSidebarOpen(false)}
@@ -115,7 +117,7 @@ const NavBar = () => {
           </div>
 
           <div class="mt-6 flow-root">
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Sobre</a>
+            <Link to="../sobre" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Sobre</Link>
 
 
             <div class="-my-6 divide-y divide-gray-500/10">
@@ -134,9 +136,9 @@ const NavBar = () => {
 
                         <Disclosure.Panel className="text-gray-500">
                           <div class="mt-2 space-y-2" id="disclosure-1">
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</a>
+                            <Link to="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</Link>
+                            <Link to="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</Link>
+                            <Link to="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</Link>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -158,13 +160,13 @@ const NavBar = () => {
 
                         <Disclosure.Panel className="text-gray-500">
                           <div class="mt-2 space-y-2" id="disclosure-2">
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária </a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores </a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
-                            <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</a>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade</Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Fiscal</Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária </Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores </Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</Link>
+                            <Link to="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</Link>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -174,8 +176,8 @@ const NavBar = () => {
               </div>
             </div>
 
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Contato</a>
+            <Link to="../blog" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Blog</Link>
+            <Link to="../contato" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Contato</Link>
           </div>
 
         </div>

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const Especialidades = () => {
     return (
-        <div class="bg-white py-24 sm:py-24 font-montserrat">
+        <div class="bg-white mt-10 py-24 sm:py-24 font-montserrat">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto text-center">
                     <h2 class="text-4xl sm:text-6xl font-bold text-gray-100">ESPECIALIDADES</h2>
