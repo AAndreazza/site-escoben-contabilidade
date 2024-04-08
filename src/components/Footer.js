@@ -10,7 +10,7 @@ const Footer = () => {
                     <img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Escoben Contabilidade" />
 
                     <div class="grid grid-cols-2 xl:col-span-2">
-                        <ul role="list" class="space-y-6 mt-4">
+                        <ul class="space-y-6 mt-4">
                             <li>
                                 <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Sobre</Link>
                             </li>
@@ -28,7 +28,7 @@ const Footer = () => {
                             </li>
                         </ul>
 
-                        <ul role="list" class="mt-6 space-y-6">
+                        <ul class="mt-6 space-y-6">
                             <li>
                                 <div className='flex gap-x-4'>
                                     <dt className='flex-none'>

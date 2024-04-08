@@ -23,7 +23,7 @@ const PaginaEspecialidades = () => {
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#dbbee0]"></div>
                     <div class="col-span-11 lg:col-span-6">
-                        <p class="sm:ml-0 ml-12 text-xl sm:text-2xl font-monteserrat leading-6 text-black">Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
+                        <p class="sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black">Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
                     </div>
                 </div>
             </div>
