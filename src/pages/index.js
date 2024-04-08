@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import WhatsappIcon from '../components/WhatsappIcon'
 import Especialidades from '../components/PaginaInicial/Especialidades'
 import Servicos from '../components/PaginaInicial/Servicos'
-import Sobre from '../components/Sobre'
+import Sobre from '../components/PaginaInicial/Sobre'
 import Footer from '../components/Footer'
 
 const Index = () => {

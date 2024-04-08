@@ -1,5 +1,5 @@
 import React from 'react'
-import PaginaSobre from '../components/Sobre/PaginaSobre'
+import PaginaSobre from '../components/PaginaSobre'
 
 const Sobre = () => {
     return (

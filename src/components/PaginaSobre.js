@@ -1,8 +1,8 @@
 import React from "react";
-import Header from '../Header.js'
-import Sobre from "../Sobre.js";
-import Footer from "../Footer.js";
-import Formulario from "../Formulario.js";
+import Header from './Header.js'
+import Sobre from "./PaginaInicial/Sobre.js";
+import Footer from "./Footer.js";
+import Formulario from "./Formulario.js";
 
 const PaginaSobre = () => {
     return (

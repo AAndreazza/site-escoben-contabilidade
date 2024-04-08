@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/LogoTeste.png"
+import Logo from "../../images/LogoTeste.png"
 
 const Sobre = () => {
     return (

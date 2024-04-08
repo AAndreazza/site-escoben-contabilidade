@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'gatsby'
-import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

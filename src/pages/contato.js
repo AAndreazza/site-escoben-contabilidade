@@ -1,5 +1,5 @@
 import React from 'react'
-import PaginaContato from '../components/Contato/PaginaContato'
+import PaginaContato from '../components/PaginaContato'
 
 const Contato = () => {
     return (

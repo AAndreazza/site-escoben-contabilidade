@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from 'gatsby'
-import Header from '../Header.js'
-import Footer from "../Footer.js";
-import Formulario from "../Formulario.js";
-import Logo from "../../images/LogoTeste.png"
+import Header from './Header.js'
+import Footer from "./Footer.js";
+import Formulario from "./Formulario.js";
+import Logo from "../images/LogoTeste.png"
 
 const PaginaEspecialidades = () => {
     return (

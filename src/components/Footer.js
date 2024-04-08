@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link } from"gatsby"
 
 const Footer = () => {
     return (
@@ -12,19 +12,19 @@ const Footer = () => {
                     <div class="grid grid-cols-2 xl:col-span-2">
                         <ul class="space-y-6 mt-4">
                             <li>
-                                <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Sobre</Link>
+                                <Link to="../sobre" class="text-lg leading-6 text-gray-200">Sobre</Link>
                             </li>
                             <li>
-                                <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Especialidades</Link>
+                                <Link to="../especialidades" class="text-lg leading-6 text-gray-200">Especialidades</Link>
                             </li>
                             <li>
-                                <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Serviços</Link>
+                                <Link to="../servicos" class="text-lg leading-6 text-gray-200">Serviços</Link>
                             </li>
                             <li>
-                                <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Blog</Link>
+                                <Link to="../blog" class="text-lg leading-6 text-gray-200">Blog</Link>
                             </li>
                             <li>
-                                <Link to="#" class="text-lg leading-6 text-gray-800 hover:text-gray-900">Contato</Link>
+                                <Link to="../contato" class="text-lg leading-6 text-gray-200">Contato</Link>
                             </li>
                         </ul>
 
@@ -36,12 +36,12 @@ const Footer = () => {
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                            class="h-7 w-6 text-black">
+                                            class="h-7 w-6 text-gray-200">
                                             <path
                                                 stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                                         </svg>
                                     </dt>
-                                    <dd className='hover:text-gray-900' to='#' >+55 47 3385-0127</dd>
+                                    <dd className='text-gray-200 text-lg' to='#' >+55 47 3385-0127</dd>
                                 </div>
                             </li>
                             <li>
@@ -51,7 +51,7 @@ const Footer = () => {
                                         <Link to=''>
                                         <svg
                                             xmlns='http://www.w3.org/2000/svg'
-                                            className='h-7 w-6 text-black'
+                                            className='h-7 w-6 text-gray-200'
                                             fill='currentColor'
                                             viewBox='0 0 24 24'>
                                             <path
@@ -60,7 +60,7 @@ const Footer = () => {
                                         </Link>
                                     </dt>
                                     <Link to=''>
-                                        <dd className='hover:text-gray-900' to='#' >+55 47 99999-9999</dd>
+                                        <dd className='text-gray-200 text-lg' to='#' >+55 47 99999-9999</dd>
                                     </Link>
                                 </div>
                             </li>
@@ -68,13 +68,13 @@ const Footer = () => {
                                 <div className='flex gap-x-4'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Email</span>
-                                        <Link to='mailto:adicionar' className='hover:text-gray-900'>
-                                            <svg className='h-7 w-6 text-black' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                                        <Link to='mailto:adicionar' className=''>
+                                            <svg className='h-7 w-6 text-gray-200' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                                                 <path stroke-linecap='round' stroke-linejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
                                             </svg>
                                         </Link>
                                     </dt>
-                                    <dd><Link to='mailto:adicionar' className='hover:text-gray-900'>@gmail.com</Link></dd>
+                                    <dd><Link to='mailto:adicionar' className='text-gray-200 text-lg'>@gmail.com</Link></dd>
                                 </div>
                             </li>
                             <li>
@@ -82,13 +82,13 @@ const Footer = () => {
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Endereco</span>
                                         <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
-                                            <svg className='h-7 w-6 text-black' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                                            <svg className='h-7 w-6 text-gray-200' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                                                 <path stroke-linecap='round' stroke-linejoin='round' d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z' />
                                             </svg>
                                         </Link>
                                     </dt>
                                     <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
-                                        <dd>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
+                                        <dd className='text-gray-200 text-lg'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
                                     </Link>
                                 </div>
                             </li>

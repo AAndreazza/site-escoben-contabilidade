@@ -1,5 +1,5 @@
 import React from 'react'
-import PaginaEspecialidades from '../components/Especialidades/PaginaEspecialidades'
+import PaginaEspecialidades from '../components/PaginaEspecialidades'
 
 const Especialidades = () => {
     return (
