@@ -12,19 +12,19 @@ const Footer = () => {
                     <div class="grid grid-cols-2 xl:col-span-2">
                         <ul class="space-y-6 mt-4">
                             <li>
-                                <Link to="../sobre" class="text-lg leading-6 text-gray-200">Sobre</Link>
+                                <a href="../sobre" class="text-lg leading-6 text-gray-200">Sobre</a>
                             </li>
                             <li>
-                                <Link to="../especialidades" class="text-lg leading-6 text-gray-200">Especialidades</Link>
+                                <a href="../especialidades" class="text-lg leading-6 text-gray-200">Especialidades</a>
                             </li>
                             <li>
-                                <Link to="../servicos" class="text-lg leading-6 text-gray-200">Serviços</Link>
+                                <a href="../servicos" class="text-lg leading-6 text-gray-200">Serviços</a>
                             </li>
                             <li>
-                                <Link to="../blog" class="text-lg leading-6 text-gray-200">Blog</Link>
+                                <a href="../blog" class="text-lg leading-6 text-gray-200">Blog</a>
                             </li>
                             <li>
-                                <Link to="../contato" class="text-lg leading-6 text-gray-200">Contato</Link>
+                                <a href="../contato" class="text-lg leading-6 text-gray-200">Contato</a>
                             </li>
                         </ul>
 
