@@ -1,9 +1,10 @@
 import React from 'react'
+import PaginaServicos from '../components/PaginaServicos'
 
 const Servicos = () => {
     return (
         <div>
-            FAZER
+            <PaginaServicos></PaginaServicos>
         </div>
     )
 }

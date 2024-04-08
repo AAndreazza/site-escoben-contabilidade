@@ -6,7 +6,7 @@ const Especialidades = () => {
         <div class="bg-white mt-10 py-24 sm:py-24 font-montserrat">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto text-center">
-                    <h2 class="text-4xl sm:text-6xl font-bold text-gray-100">ESPECIALIDADES</h2>
+                    <h2 class="text-4xl sm:text-6xl font-bold text-[#e4d5e7]">ESPECIALIDADES</h2>
                     <p class="mt-0 text-xl font-semibold text-gray-900 sm:text-4xl">Serviços de Contabilidade Especializados para:</p>
                     <div className='mt-6 border-t-2 border-gray-900/10 pt-6 sm:mt-8 lg:mt-8 mx-11'></div>
                     <p class="text-base text-gray-900 sm:text-2xl">Uma <b>contabilidade</b> que conhece o seu negócio</p>

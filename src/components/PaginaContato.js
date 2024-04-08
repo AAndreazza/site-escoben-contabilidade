@@ -7,7 +7,7 @@ import Logo from "../images/LogoTeste.png"
 const PaginaContato = () => {
     return (
         <div>
-            {/* MENUS + BANNER ESPECIALIDADES */}
+            {/* MENUS + BANNER CONTATO */}
             <div className="bg-[#4f2158] py-32 sm:py-44">
                 <h2 class="mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">CONTATO</h2>
                 <p class="mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]">Fale conosco</p>
@@ -124,7 +124,8 @@ const PaginaContato = () => {
                                 className='w-full mx-auto max-w-[22rem] lg:max-w-[53.25rem] mb-10'
                                 allowfullscreen=""
                                 loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Mapa da localização da Escoben Contabilidade">
                             </iframe>
                         </div>
                     </li>

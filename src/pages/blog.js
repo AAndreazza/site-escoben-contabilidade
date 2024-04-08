@@ -1,9 +1,10 @@
 import React from 'react'
+import PaginaBlog from '../components/PaginaBlog'
 
 const Blog = () => {
     return (
         <div>
-            FAZER
+            <PaginaBlog></PaginaBlog>
         </div>
     )
 }
