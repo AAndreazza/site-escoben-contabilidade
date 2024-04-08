@@ -5,6 +5,7 @@ import Especialidades from '../components/PaginaInicial/Especialidades'
 import Servicos from '../components/PaginaInicial/Servicos'
 import Footer from '../components/Footer'
 import PaginaEspecialidades from '../components/Especialidades/PaginaEspecialidades'
+import PaginaSobre from '../components/Sobre/PaginaSobre'
 
 const Index = () => {
     return (
@@ -15,8 +16,11 @@ const Index = () => {
             <Especialidades></Especialidades>
             <Servicos></Servicos>
             <Footer></Footer>
-             */}
+             <PaginaSobre></PaginaSobre>
+            
+            */}
             <PaginaEspecialidades></PaginaEspecialidades>
+            
         </div>
     )
 }

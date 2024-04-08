@@ -5,31 +5,31 @@ import Footer from "../Footer.js";
 import Formulario from "../Formulario.js";
 import Logo from "../../images/LogoTeste.png"
 
-const PaginaEspecialidades = () => {
+const PaginaSobre = () => {
     return (
         <div>
             {/* MENUS + BANNER ESPECIALIDADES */}
-            <div className="bg-[#4f2158] py-32 sm:py-44">
-                <h2 class="mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">ESPECIALIDADES</h2>
-                <p class="mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]">Serviços de Contabilidade Especializados</p>
+            <div className="bg-[#4f2158] px-6 py-52 sm:py-44 lg:px-8">
+                <h2 class="mt-10 mx-auto text-center font-montserrat text-4xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">ESPECIALIDADES</h2>
+                <p class="mt-4 mx-auto text-center font-montserrat text-lg sm:text-3xl font-bold text-[#e4d5e7]">Serviços de Contabilidade Especializados</p>
                 <Header></Header>
             </div>
 
             {/* LOGO + TEXTO */}
             <div class="bg-white py-20">
                 <div class="mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12">
-                    <div class="col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32">
-                        <img src={Logo} alt="Logo Escoben Contabilidade"/>
+                    <div class="lg:col-span-5 ml-32">
+                        <img src={Logo} alt="Logo Escoben Contabilidade" />
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#dbbee0]"></div>
-                    <div class="col-span-11 lg:col-span-6">
-                        <p class="sm:ml-0 ml-12 text-xl sm:text-2xl font-monteserrat leading-6 text-black">Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
+                    <div class="lg:col-span-6">
+                        <p class="text-2xl font-monteserrat leading-6 text-black">Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
                     </div>
                 </div>
             </div>
 
             {/* SERVICOS + TOPICOS */}
-            <div class="mx-auto max-w-5xl -mt-10 font-montserrat">
+            <div class="mx-auto mt-16 max-w-5xl sm:-mt-10 font-montserrat">
                 <div class="mx-auto isolate mt-10 grid max-w-80 grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:max-w-none xl:grid-cols-3">
 
                     <div class="rounded-3xl p-8 ring-2 ring-[#793486] shadow-2xl">
@@ -251,7 +251,7 @@ const PaginaEspecialidades = () => {
             <div class="mt-16 sm:mt-20 mb-20 text-center">
                 <Link
                     to='#'
-                    className='rounded-full bg-[#793486] drop-shadow-2xl px-6 sm:px-16 py-4 text-xl sm:text-2xl mb-8 font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                    className='rounded-full bg-[#793486] drop-shadow-2xl px-10 sm:px-16 py-4 text-2xl mb-8 font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Fale com um especialista
                     <span aria-hidden='true'> &rarr;</span>
@@ -270,4 +270,4 @@ const PaginaEspecialidades = () => {
     )
 }
 
-export default PaginaEspecialidades;
+export default PaginaSobre;
