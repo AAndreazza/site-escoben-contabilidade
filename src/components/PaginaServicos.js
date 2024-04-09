@@ -3,6 +3,11 @@ import Header from './Header.js'
 import Footer from "./Footer.js";
 import Formulario from "./Formulario.js"
 import Logo from "../images/LogoTeste.png"
+import Contabilidade from "./Servicos/Contabilidade.js";
+import GestaoFiscal from "./Servicos/GestaoFiscal.js";
+import GestaoTrabalhista from "./Servicos/GestaoTrabalhista.js";
+import GestaoSocietaria from "./Servicos/GestaoSocietaria.js";
+import ControleInvestimentos from "./Servicos/ControleInvestimentos.js";
 
 const PaginaServicos = () => {
     return (
@@ -26,6 +31,13 @@ const PaginaServicos = () => {
                     </div>
                 </div>
             </div>
+
+            {/* SERVICOS */}
+            <Contabilidade></Contabilidade>
+            <GestaoFiscal></GestaoFiscal>
+            <GestaoTrabalhista></GestaoTrabalhista>
+            <GestaoSocietaria></GestaoSocietaria>
+            <ControleInvestimentos></ControleInvestimentos>
 
             {/* FORMULARIO */}
             <div class="mt-20 sm:mt-32 mx-auto text-center">

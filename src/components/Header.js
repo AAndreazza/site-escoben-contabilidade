@@ -70,7 +70,7 @@ const NavBar = () => {
                     <div class="absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
                       <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade</a>
                       <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Previdenciária</a>
                       <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
                       <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores</a>
                       <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
@@ -159,7 +159,7 @@ const NavBar = () => {
                           <div class="mt-2 space-y-2" id="disclosure-2">
                             <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade</a>
                             <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Penitenciária </a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Previdenciária </a>
                             <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
                             <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores </a>
                             <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
