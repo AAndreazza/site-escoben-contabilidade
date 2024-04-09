@@ -8,6 +8,8 @@ import GestaoFiscal from "./Servicos/GestaoFiscal.js";
 import GestaoTrabalhista from "./Servicos/GestaoTrabalhista.js";
 import GestaoSocietaria from "./Servicos/GestaoSocietaria.js";
 import ControleInvestimentos from "./Servicos/ControleInvestimentos.js";
+import ImpostoRenda from "./Servicos/ImpostoRenda.js";
+import Consultoria from "./Servicos/Consultoria.js";
 
 const PaginaServicos = () => {
     return (
@@ -27,7 +29,7 @@ const PaginaServicos = () => {
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#dbbee0]"></div>
                     <div class="col-span-11 lg:col-span-6">
-                        <p class="sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black">Nosso propósito é transformar a sua empresa em um negócio de sucesso. Soluções completas para a sua gestão contábil, fiscal e trabalhista.</p>
+                        <p class="sm:ml-0 ml-12 mr-4 text-xl sm:text-2xl font-montserrat leading-6 text-black">Nosso propósito é transformar a sua empresa em um negócio de sucesso. Soluções completas para a sua gestão contábil, fiscal e trabalhista.</p>
                     </div>
                 </div>
             </div>
@@ -38,9 +40,11 @@ const PaginaServicos = () => {
             <GestaoTrabalhista></GestaoTrabalhista>
             <GestaoSocietaria></GestaoSocietaria>
             <ControleInvestimentos></ControleInvestimentos>
+            <ImpostoRenda></ImpostoRenda>
+            <Consultoria></Consultoria>
 
             {/* FORMULARIO */}
-            <div class="mt-20 sm:mt-32 mx-auto text-center">
+            <div class="mt-20 sm:mt-24 mx-auto text-center">
                 <h2 class="text-4xl sm:text-6xl font-bold text-[#e4d5e7] ">ENTRE EM CONTATO</h2>
                 <p class="text-lg sm:text-xl font-semibold text-[#392c3b]">Mande-nos uma mensagem. Responderemos diretamente no seu e-mail!</p>
             </div>
