@@ -12,25 +12,25 @@ const Footer = () => {
                     <div class="grid grid-cols-2 xl:col-span-2">
                         <ul class="space-y-6 mt-4">
                             <li>
-                                <a href="../sobre" class="text-lg leading-6 text-gray-200">Sobre</a>
+                                <a href="../sobre" class="text-base sm:text-lg leading-6 text-gray-200">Sobre</a>
                             </li>
                             <li>
-                                <a href="../especialidades" class="text-lg leading-6 text-gray-200">Especialidades</a>
+                                <a href="../especialidades" class="text-base sm:text-lg leading-6 text-gray-200">Especialidades</a>
                             </li>
                             <li>
-                                <a href="../servicos" class="text-lg leading-6 text-gray-200">Serviços</a>
+                                <a href="../servicos" class="text-base sm:text-lg leading-6 text-gray-200">Serviços</a>
                             </li>
                             <li>
-                                <a href="../blog" class="text-lg leading-6 text-gray-200">Blog</a>
+                                <a href="../blog" class="text-base sm:text-lg leading-6 text-gray-200">Blog</a>
                             </li>
                             <li>
-                                <a href="../contato" class="text-lg leading-6 text-gray-200">Contato</a>
+                                <a href="../contato" class="text-base sm:text-lg leading-6 text-gray-200">Contato</a>
                             </li>
                         </ul>
 
                         <ul class="mt-6 space-y-6">
                             <li>
-                                <div className='flex gap-x-4'>
+                                <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Whatsapp</span>
                                         <svg
@@ -41,11 +41,11 @@ const Footer = () => {
                                                 stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                                         </svg>
                                     </dt>
-                                    <dd className='text-gray-200 text-lg' to='#' >+55 47 3385-0127</dd>
+                                    <dd className='text-gray-200 text-base sm:text-lg' to='#' >+55 47 3385-0127</dd>
                                 </div>
                             </li>
                             <li>
-                                <div className='flex gap-x-4'>
+                                <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Whatsapp</span>
                                         <Link to=''>
@@ -60,12 +60,12 @@ const Footer = () => {
                                         </Link>
                                     </dt>
                                     <Link to=''>
-                                        <dd className='text-gray-200 text-lg' to='#' >+55 47 99999-9999</dd>
+                                        <dd className='text-gray-200 text-base sm:text-lg' to='#' >+55 47 99999-9999</dd>
                                     </Link>
                                 </div>
                             </li>
                             <li>
-                                <div className='flex gap-x-4'>
+                                <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Email</span>
                                         <Link to='mailto:adicionar' className=''>
@@ -74,11 +74,11 @@ const Footer = () => {
                                             </svg>
                                         </Link>
                                     </dt>
-                                    <dd><Link to='mailto:adicionar' className='text-gray-200 text-lg'>@gmail.com</Link></dd>
+                                    <dd><Link to='mailto:adicionar' className='text-gray-200 text-base sm:text-lg'>@gmail.com</Link></dd>
                                 </div>
                             </li>
                             <li>
-                                <div className='flex gap-x-4'>
+                                <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Endereco</span>
                                         <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
@@ -88,7 +88,7 @@ const Footer = () => {
                                         </Link>
                                     </dt>
                                     <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
-                                        <dd className='text-gray-200 text-lg'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
+                                        <dd className='text-gray-200 text-base sm:text-lg'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
                                     </Link>
                                 </div>
                             </li>
