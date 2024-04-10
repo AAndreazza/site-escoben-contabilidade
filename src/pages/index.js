@@ -1,4 +1,5 @@
 import React from 'react'
+import Seo from '../components/Seo'
 import Header from '../components/Header'
 import WhatsappIcon from '../components/WhatsappIcon'
 import Especialidades from '../components/PaginaInicial/Especialidades'
@@ -9,6 +10,7 @@ import Footer from '../components/Footer'
 const Index = () => {
     return (
         <div>
+            <Seo title='' description='' />
             <Header></Header>
             <WhatsappIcon></WhatsappIcon>
             <Especialidades></Especialidades>
