@@ -44,17 +44,7 @@ const Post = ({ data }) => {
     const conteudoRichJson = JSON.parse(data.contentfulPost.conteudo.raw)
 
     return (
-        <div>
-
-            {/* <h1>{data.contentfulPost.titulo}</h1>
-            <h3>{data.contentfulPost.categoria}</h3>
-
-            <img src={data.contentfulPost.imagemApresentacao.resize.src} />
-
-            <div>
-                {documentToReactComponents(conteudoRichJson, options)}
-            </div> */}
-
+        <div className='font-montserrat'>
             {/* MENUS + BANNER BLOG */}
             <div className="bg-[#4f2158] py-32 sm:py-44">
                 <h2 class="mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">{data.contentfulPost.categoria}</h2>
@@ -65,10 +55,11 @@ const Post = ({ data }) => {
             <WhatsappIcon></WhatsappIcon>
 
             {/* CONTEUDO POST */}
-            <div class="bg-white px-6 py-20 lg:px-8">
+            <div class="bg-white px-6 mt-12 mb-12 sm:mt-16 sm:mb-16 lg:px-8">
                 <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
                     <p class="text-xl font-semibold text-center leading-7 text-[#8e459c]">{data.contentfulPost.categoria}</p>
                     <h1 class="mt-2 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">{data.contentfulPost.titulo}</h1>
+                    <img src={data.contentfulPost.imagemApresentacao.resize.src} className='mt-10 mb-10 mx-auto max-w-xl rounded-2xl' alt='imagem'/>
                     <div>{documentToReactComponents(conteudoRichJson, options)}</div>
                 </div>
             </div>
@@ -90,7 +81,7 @@ const Post = ({ data }) => {
             <div class="text-center mb-20">
                 <Link
                     to='#'
-                    className='rounded-full bg-[#793486] drop-shadow-2xl px-8 py-4 mb-8 text-xl font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                    className='rounded-full bg-[#793486] drop-shadow-2xl px-6 py-4 sm:px-8 sm:py-4 mb-8 text-base sm:text-xl font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Conheça todos os nossos serviços
                     <span aria-hidden='true'> &rarr;</span>
@@ -111,7 +102,7 @@ export const pageQuery = graphql`
                 raw
             }
             imagemApresentacao {
-                resize(height: 200, width: 300) {
+                resize(height: 500, width: 900) {
                     src
                 } 
             }

@@ -12,6 +12,7 @@ exports.createPages = async ({ graphql, actions }) => {
               titulo
               categoria
               slug
+              descricao
             }
           }
         }
