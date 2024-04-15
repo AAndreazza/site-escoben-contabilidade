@@ -3,7 +3,7 @@ import Logo from "../../images/LogoTeste.png"
 
 const Sobre = () => {
     return (
-        <div class="bg-white sm:mt-20 font-montserrat">
+        <div class="bg-white sm:mt-20 mb-20 font-montserrat">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto mt-16 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl">
                     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 import { BLOCKS, MARKS } from '@contentful/rich-text-types'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import Seo from '../components/Seo'
 import HeaderPost from '../components/HeaderPost'
 import WhatsappIcon from '../components/WhatsappIcon'
 import Logo from "../images/LogoTeste.png"
@@ -45,6 +46,7 @@ const Post = ({ data }) => {
 
     return (
         <div className='font-montserrat'>
+            <Seo title={data.contentfulPost.titulo} description='' />
             {/* MENUS + BANNER BLOG */}
             <div className="bg-[#4f2158] py-32 sm:py-44">
                 <h2 class="mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">{data.contentfulPost.categoria}</h2>

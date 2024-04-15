@@ -43,9 +43,9 @@ const NavBar = () => {
 
                   <Disclosure.Panel className="text-gray-500">
                     <div class="absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</a>
-                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</a>
-                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</a>
+                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Contabilidade para comércio</a>
+                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Contabilidade para serviço</a>
+                      <a href="../especialidades" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Contabilidade para indústria</a>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -68,13 +68,13 @@ const NavBar = () => {
 
                   <Disclosure.Panel className="text-gray-500">
                     <div class="absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Contabilidade</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Previdenciária</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
-                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Contabilidade</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Gestão Fiscal</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Gestão Trabalhista e Previdenciária</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Gestão Societária e Outros Serviços</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Controle dos Investimentos na Bolsa de Valores</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Imposto de Renda da Pessoa Física</a>
+                      <a href="../servicos" class="block rounded-lg px-3 py-2 text-lg leading-6 text-gray-900 hover:bg-gray-100">Consultoria e Treinamentos</a>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -114,7 +114,7 @@ const NavBar = () => {
           </div>
 
           <div class="mt-6 flow-root">
-            <a href="../sobre" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Sobre</a>
+            <a href="../sobre" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100">Sobre</a>
 
 
             <div class="-my-6 divide-y divide-gray-500/10">
@@ -123,7 +123,7 @@ const NavBar = () => {
                   <Disclosure>
                     {({ open }) => (
                       <>
-                        <Disclosure.Button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
+                        <Disclosure.Button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-100" aria-controls="disclosure-1" aria-expanded="false">
                           Especialidades
                           <svg class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                             } h-5 w-5 `} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -133,9 +133,9 @@ const NavBar = () => {
 
                         <Disclosure.Panel className="text-gray-500">
                           <div class="mt-2 space-y-2" id="disclosure-1">
-                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para comércio</a>
-                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para serviço</a>
-                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade para indústria</a>
+                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Contabilidade para comércio</a>
+                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Contabilidade para serviço</a>
+                            <a href="../especialidades" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Contabilidade para indústria</a>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -147,7 +147,7 @@ const NavBar = () => {
                   <Disclosure>
                     {({ open }) => (
                       <>
-                        <Disclosure.Button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-2" aria-expanded="false">
+                        <Disclosure.Button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-100" aria-controls="disclosure-2" aria-expanded="false">
                           Serviços
                           <svg class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                             } h-5 w-5 `} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -157,13 +157,13 @@ const NavBar = () => {
 
                         <Disclosure.Panel className="text-gray-500">
                           <div class="mt-2 space-y-2" id="disclosure-2">
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Contabilidade</a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Fiscal</a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Trabalhista e Previdenciária </a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Gestão Societária e Outros Serviços</a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Controle dos Investimentos na Bolsa de Valores </a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Imposto de Renda da Pessoa Física</a>
-                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50">Consultoria e Treinamentos</a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Contabilidade</a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Gestão Fiscal</a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Gestão Trabalhista e Previdenciária </a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Gestão Societária e Outros Serviços</a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Controle dos Investimentos na Bolsa de Valores </a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Imposto de Renda da Pessoa Física</a>
+                            <a href="../servicos" class="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100">Consultoria e Treinamentos</a>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -173,8 +173,8 @@ const NavBar = () => {
               </div>
             </div>
 
-            <a href="../blog" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
-            <a href="../contato" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50">Contato</a>
+            <a href="../blog" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100">Blog</a>
+            <a href="../contato" class="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100">Contato</a>
           </div>
 
         </div>

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const Especialidades = () => {
     return (
-        <div class="bg-white mt-10 py-24 sm:py-24 font-montserrat">
+        <div class="bg-white mt-0 sm:mt-10 py-24 sm:py-24 font-montserrat">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto text-center">
                     <h2 class="text-4xl sm:text-6xl font-bold text-[#e4d5e7]">ESPECIALIDADES</h2>
@@ -20,7 +20,7 @@ const Especialidades = () => {
                             </h2>
                             <p class="mt-8">
                                 <Link
-                                    to='#'
+                                    to='../../especialidades'
                                     className='rounded-full bg-[#793486] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#c096f7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
@@ -35,7 +35,7 @@ const Especialidades = () => {
                             </h2>
                             <p class="mt-8">
                                 <Link
-                                    to='#'
+                                    to='../../especialidades'
                                     className='rounded-full bg-[#793486] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#c096f7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
@@ -50,7 +50,7 @@ const Especialidades = () => {
                             </h2>
                             <p class="mt-8">
                                 <Link
-                                    to='#'
+                                    to='../../especialidades'
                                     className='rounded-full bg-[#793486] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#c096f7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
