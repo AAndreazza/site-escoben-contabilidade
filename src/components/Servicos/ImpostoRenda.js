@@ -48,7 +48,7 @@ const ImpostoRenda = () => {
                         <div className="mt-10 text-center sm:mr-20">
                             <Link
                                 to='#'
-                                className='rounded-full bg-[#793486] px-6 sm:px-8 py-3 text-xl font-semibold text-white hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                className='rounded-full bg-[#793486] px-4 sm:px-8 py-3 text-lg sm:text-xl font-semibold text-white hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                             >
                                 Fale com um especialista
                                 <span aria-hidden='true'> &rarr;</span>

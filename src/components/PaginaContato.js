@@ -22,7 +22,7 @@ const PaginaContato = () => {
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#dbbee0]"></div>
                     <div class="col-span-11 lg:col-span-6">
-                        <p class="sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black"><b>Quer saber como a Escoben pode ajudar no crescimento da sua empresa?</b> Entre em contato através de um dos meios abaixo e fale com os nossos especialistas.</p>
+                        <p class="mx-4 sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black"><b>Quer saber como a Escoben pode ajudar no crescimento da sua empresa?</b> Entre em contato através de um dos meios abaixo e fale com os nossos especialistas.</p>
                     </div>
                 </div>
             </div>
