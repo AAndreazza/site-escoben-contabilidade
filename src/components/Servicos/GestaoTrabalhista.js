@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby'
+import { getWhatsUrl } from '../../utils/index.js'
+import { CTA_WHATSAPP_MENSAGENS } from '../../utils/constants'
 import Servico from '../../images/ServicoTeste.webp'
 
 const GestaoTrabalhista = () => {
@@ -44,7 +46,8 @@ const GestaoTrabalhista = () => {
 
                         <div class="mt-10 text-center">
                             <Link
-                                to='#'
+                                to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
+                                target='_blank'
                                 className='rounded-full bg-[#793486] px-4 sm:px-8 py-3 text-lg sm:text-xl font-semibold text-white hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                             >
                                 Fale com um especialista

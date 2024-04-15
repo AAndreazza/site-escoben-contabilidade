@@ -56,7 +56,7 @@ const PaginaContato = () => {
 
                 <ul className="space-y-6 font-montserrat mb-5">
                     <li>
-                        <div className='flex gap-x-4 ml-10 sm:ml-0'>
+                        <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Whatsapp</span>
                                 <svg
@@ -71,7 +71,7 @@ const PaginaContato = () => {
                         </div>
                     </li>
                     <li>
-                        <div className='flex gap-x-4 ml-10 sm:ml-0'>
+                        <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Whatsapp</span>
                                 <Link to=''>
@@ -91,7 +91,7 @@ const PaginaContato = () => {
                         </div>
                     </li>
                     <li>
-                        <div className='flex gap-x-4 ml-10 sm:ml-0'>
+                        <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Email</span>
                                 <Link to='mailto:adicionar'>
@@ -104,7 +104,7 @@ const PaginaContato = () => {
                         </div>
                     </li>
                     <li>
-                        <div className='flex gap-x-4 ml-10 sm:ml-0'>
+                        <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Endereco</span>
                                 <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>

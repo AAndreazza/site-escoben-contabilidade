@@ -5,7 +5,7 @@ const Servicos = () => {
     return (
         <div class="bg-white py-8 sm:py-24 font-montserrat">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto text-center">
+                <div class="mx-auto text-center px-0">
                     <h2 class="text-5xl sm:text-7xl font-bold text-[#e4d5e7]">SERVIÇOS</h2>
                     <p class="mt-0 text-xl font-semibold text-gray-900 sm:text-3xl">Nossos Serviços</p>
                     <div className='mt-6 border-t-2 border-gray-900/10 pt-6 sm:mt-8 lg:mt-8 mx-11'></div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby'
+import { getWhatsUrl } from '../utils/index.js'
+import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from "./Footer.js";
 import Formulario from "./Formulario.js";
@@ -250,7 +252,8 @@ const PaginaEspecialidades = () => {
             {/* CTA */}
             <div class="mt-16 sm:mt-20 mb-20 text-center">
                 <Link
-                    to='#'
+                    to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
+                    target='_blank'
                     className='rounded-full bg-[#793486] drop-shadow-2xl px-6 sm:px-16 py-4 text-xl sm:text-2xl mb-8 font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Fale com um especialista

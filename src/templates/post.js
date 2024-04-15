@@ -82,7 +82,7 @@ const Post = ({ data }) => {
             {/* CTA */}
             <div class="text-center mb-20">
                 <Link
-                    to='#'
+                    to='../../servicos'
                     className='rounded-full bg-[#793486] drop-shadow-2xl px-6 py-4 sm:px-8 sm:py-4 mb-8 text-base sm:text-xl font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Conheça todos os nossos serviços
