@@ -61,7 +61,7 @@ const Post = ({ data }) => {
                 <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
                     <p class="text-xl font-semibold text-center leading-7 text-[#8e459c]">{data.contentfulPost.categoria}</p>
                     <h1 class="mt-2 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">{data.contentfulPost.titulo}</h1>
-                    <img src={data.contentfulPost.imagemApresentacao.resize.src} className='mt-10 mb-10 mx-auto max-w-xl rounded-2xl' alt='imagem'/>
+                    <img src={data.contentfulPost.imagemApresentacao.resize.src} className='mt-10 mb-10 mx-auto sm:max-w-xl max-w-xs rounded-2xl' alt='imagem'/>
                     <div>{documentToReactComponents(conteudoRichJson, options)}</div>
                 </div>
             </div>
