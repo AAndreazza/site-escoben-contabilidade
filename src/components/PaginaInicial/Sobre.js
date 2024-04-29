@@ -1,62 +1,98 @@
-import React from "react";
-import Logo from "../../images/LogoTeste.png"
+import React from 'react';
+import Logo from '../../images/LogoTeste.png'
 
 const Sobre = () => {
     return (
-        <div class="bg-white sm:mt-20 mb-20 font-montserrat">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto mt-16 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div className='bg-white sm:mt-20 mb-20 font-montserrat'>
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                <div className='mx-auto mt-16 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl'>
+                    <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
 
-                        <div class="relative pl-16">
-                            <dt class="text-xl font-semibold leading-7 text-[#4f2158]">
-                                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]">
-                                    <img width="100" height="100" src="https://img.icons8.com/ios/100/circled-play--v1.png" alt="circled-play--v1" />                                    </div>
+                        <div className='relative pl-16'>
+                            <dt className='text-xl font-semibold leading-7 text-[#4f2158]'>
+                                <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                    <img width='100' height='100' src='https://img.icons8.com/ios/100/circled-play--v1.png' alt='circled-play--v1' />                                    </div>
                                 História
                             </dt>
-                            <dd class="mt-2 text-lg leading-7 text-[#3f2444]">A Escoben é uma empresa que atua nas áreas contábil, fiscal, trabalhista, financeira e consultorias desde XXXX.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>A Escoben é uma empresa que atua nas áreas contábil, fiscal, trabalhista, financeira e consultorias desde XXXX.</dd>
                         </div>
 
-                        <div class="relative pl-16 sm:pl-24">
-                            <dt class="text-xl font-semibold leading-7 text-[#4f2158]">
-                                <div class="absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]">
-                                    <img width="100" height="100" src="https://img.icons8.com/ios/100/goal--v1.png" alt="goal--v1" />
+                        <div className='relative pl-16 sm:pl-24'>
+                            <dt className='text-xl font-semibold leading-7 text-[#4f2158]'>
+                                <div className='absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                    <img width='100' height='100' src='https://img.icons8.com/ios/100/goal--v1.png' alt='goal--v1' />
                                 </div>
-                                Propósito e Missão
+                                Missão
                             </dt>
-                            <dd class="mt-2 text-lg leading-7 text-[#3f2444]">Transformar a sua empresa em um negócio de sucesso, oferecendo soluções empresariais de excelência.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Oferecer serviços contábeis de excelência, simplificando o complexo e superando as expectativas.</dd>
                         </div>
 
                     </dl>
                 </div>
             </div>
 
-            <img src={Logo} alt="Logo Escoben Contabilidade" className="hidden lg:block mx-auto mt-4 mb-4 lg:w-90 lg:h-40" />
+            <img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-90 lg:h-40' />
 
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                <div className='mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl'>
+                    <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
 
-                        <div class="relative pl-16">
-                            <dt class="text-xl font-semibold leading-7 text-[#4f2158]">
-                                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]">
-                                    <img width="100" height="100" src="https://img.icons8.com/ios/100/test-partial-passed.png" alt="test-partial-passed" />                                    </div>
-                                Valores
+                        <div className='relative pl-16'>
+                            <dt className='text-xl font-semibold leading-7 text-[#4f2158]'>
+                                <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                    <img width='100' height='100' src='https://img.icons8.com/ios/100/test-partial-passed.png' alt='test-partial-passed' />                                    </div>
+                                Visão
                             </dt>
-                            <dd class="mt-2 text-lg leading-7 text-[#3f2444]">Prezamos pelos mais altos valores de confiança, honestidade, cordialidade, humildade, conhecimento e comprometimento.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Aspiramos ser a empresa líder no setor contábil, reconhecida por nossa superioridade em qualidade e inovação nos serviços que prestamos.</dd>
                         </div>
 
-                        <div class="relative pl-16 sm:pl-24">
-                            <dt class="text-xl font-semibold leading-7 text-[#4f2158]">
-                                <div class="absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]">
-                                    <img width="100" height="100" src="https://img.icons8.com/ios/100/batch-assign.png" alt="batch-assign" />                                    </div>
+                        <div className='relative pl-16 sm:pl-24'>
+                            <dt className='text-xl font-semibold leading-7 text-[#4f2158]'>
+                                <div className='absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                    <img width='100' height='100' src='https://img.icons8.com/ios/100/batch-assign.png' alt='batch-assign' />                                    </div>
                                 Profissionais Capacitados
                             </dt>
-                            <dd class="mt-2 text-lg leading-7 text-[#3f2444]">Nossa equipe é composta por mais de 65 pessoas, sendo que diversos profissionais possuem mais de uma década de experiência.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Nossa equipe é composta por mais de 65 pessoas, sendo que diversos profissionais possuem mais de uma década de experiência.</dd>
                         </div>
                     </dl>
                 </div>
             </div>
+
+            {/* VALORES DA ESCOBEN */}
+            <div className='mx-auto text-center mt-20'>
+                <h2 className='text-5xl sm:text-7xl font-bold text-[#e4d5e7]'>VALORES</h2>
+                <p className='mt-0 text-xl font-semibold text-gray-900 sm:text-2xl'>Conheça os nossos valores</p>
+            </div>
+            
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                <div className='mx-auto grid max-w-2xl grid-cols-1 gap-6 mt-10 lg:max-w-4xl lg:grid-cols-2 lg:gap-8'>
+                    <div className='flex gap-x-4 rounded-xl bg-[#f4e8f7] p-6 ring-1 ring-inset ring-[#d4afdb]'>
+                        <div className='text-base leading-7 text-center'>
+                            <h3 className='text-xl font-semibold leading-7 text-[#4f2158]'>Foco no Cliente</h3>
+                            <p className='mt-2 text-[#3f2444]'>A satisfação do cliente é o núcleo de nossa existência. Nos comprometemos a entender e atender suas necessidades de maneira excepcional.</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-x-4 rounded-xl bg-[#f4e8f7] p-6 ring-1 ring-inset ring-[#d4afdb]'>
+                        <div className='text-base leading-7 text-center'>
+                            <h3 className='text-xl font-semibold leading-7 text-[#4f2158]'>Valorização das Pessoas</h3>
+                            <p className='mt-2 text-[#3f2444]'>Respeitamos e valorizamos cada indivíduo. Acreditamos que nosso sucesso é fruto do talento e do esforço conjunto de nossa equipe.</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-x-4 rounded-xl bg-[#f4e8f7] p-6 ring-1 ring-inset ring-[#d4afdb]'>
+                        <div className='text-base leading-7 text-center'>
+                            <h3 className='text-xl font-semibold leading-7 text-[#4f2158]'>Compromisso com a Parceria</h3>
+                            <p className='mt-2 text-[#3f2444]'>Atuamos como uma extensão de nossos clientes. Juntos, fortalecemos suas operações e nossa marca.</p>
+                        </div>
+                    </div>
+                    <div className='flex gap-x-4 rounded-xl bg-[#f4e8f7] p-6 ring-1 ring-inset ring-[#d4afdb]'>
+                        <div className='text-base leading-7 text-center'>
+                            <h3 className='text-xl font-semibold leading-7 text-[#4f2158]'>Responsabilidade Social</h3>
+                            <p className='mt-2 text-[#3f2444]'>Comprometemo-nos a contribuir para uma sociedade mais justa através de práticas empresariais responsáveis e sustentáveis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

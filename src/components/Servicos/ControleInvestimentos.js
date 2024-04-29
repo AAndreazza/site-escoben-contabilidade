@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'gatsby'
 import { getWhatsUrl } from '../../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS } from '../../utils/constants'
@@ -6,16 +6,16 @@ import Servico from '../../images/ServicoTeste.webp'
 
 const ControleInvestimentos = () => {
     return (
-        <div class="font-montserrat mt-20 sm:mt-20">
-            <div class="mx-auto max-w-7xl px-8 sm:px-40">
-                <div class="grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-                    <h1 class="text-3xl font-bold text-gray-900 mx-auto sm:text-4xl lg:col-span-2 xl:col-auto">CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
-                    <div class="mt-6 max-w-xl lg:mt-2 xl:col-end-1 xl:row-start-1">
-                        <h2 class="text-lg leading-6 text-center text-gray-600">
+        <div className='font-montserrat mt-20 sm:mt-20'>
+            <div className='mx-auto max-w-7xl px-8 sm:px-40'>
+                <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
+                    <h1 className='text-3xl font-bold text-gray-900 mx-auto sm:text-4xl lg:col-span-2 xl:col-auto'>CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
+                    <div className='mt-6 max-w-xl lg:mt-2 xl:col-end-1 xl:row-start-1'>
+                        <h2 className='text-lg leading-6 text-center text-gray-600'>
                             Para a realização desse serviço, <br />entre em contato conosco.
                         </h2>
 
-                        <div class="mt-10 text-center">
+                        <div className='mt-10 text-center'>
                             <Link
                                 to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
                                 target='_blank'
@@ -27,8 +27,8 @@ const ControleInvestimentos = () => {
                         </div>
                     </div>
                     <img src={Servico}
-                        alt=""
-                        class="hidden lg:block aspect-[6/5] w-full max-w-sm rounded-2xl object-cover lg:max-w-lg xl:row-span-2 xl:row-end-2 sm:ml-0" />
+                        alt=''
+                        className='hidden lg:block aspect-[6/5] w-full max-w-sm rounded-2xl object-cover lg:max-w-lg xl:row-span-2 xl:row-end-2 sm:ml-0' />
 
                 </div>
             </div>
