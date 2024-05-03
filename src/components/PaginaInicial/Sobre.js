@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../images/LogoTeste.png'
+import Logo from '../../images/logoVerticalRoxaCompleta.png'
 
 const Sobre = () => {
     return (
@@ -31,7 +31,7 @@ const Sobre = () => {
                 </div>
             </div>
 
-            <img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-90 lg:h-40' />
+            <img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-98 lg:h-60' />
 
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                 <div className='mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl'>

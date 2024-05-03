@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Link as ScrollLink } from 'react-scroll'
 import { getWhatsUrl } from '../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
+import Logo from '../images/logoHorizBrancaCompleta.png'
 
 const Footer = () => {
     return (
@@ -9,10 +11,12 @@ const Footer = () => {
             <h2 id='footer-heading' className='sr-only'>Footer</h2>
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12'>
                 <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
-                    <img className='h-7' src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600' alt='Escoben Contabilidade' />
+                    <ScrollLink to='inicial' spy={true} smooth={true} className='cursor-pointer'>
+                        <img src={Logo} alt='Escoben Contabilidade' className='lg:w-90 lg:h-28'/>
+                    </ScrollLink>
 
                     <div className='grid grid-cols-2 xl:col-span-2'>
-                        <ul className='space-y-6 mt-4'>
+                        <ul className='space-y-6 mt-4 sm:ml-36'>
                             <li>
                                 <a href='../sobre' className='text-xs sm:text-lg leading-6 text-gray-200'>Sobre</a>
                             </li>

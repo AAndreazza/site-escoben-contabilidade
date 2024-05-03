@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby'
 import { Disclosure } from '@headlessui/react'
-import Logo from '../images/logo20040.png'
+import Logo from '../images/logoHorizRoxa.png'
 import { URLS } from '../utils/constants'
 
 const NavBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <header className='absolute inset-x-0 top-0 z-50 bg-gray-100 mt-5 mx-5 lg:mx-10 rounded-full font-montserrat'>
+    <header className='absolute inset-x-0 top-0 z-50 bg-gray-100 mt-5 mx-5 lg:mx-10 rounded-full font-montserrat' id='inicial'>
       <nav className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8' aria-label='Global'>
         <div className='flex lg:flex-1'>
           <a href='/' className='-m-1.5 p-1.5'>

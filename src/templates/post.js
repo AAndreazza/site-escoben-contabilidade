@@ -6,7 +6,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Seo from '../components/Seo'
 import HeaderPost from '../components/HeaderPost'
 import WhatsappIcon from '../components/WhatsappIcon'
-import Logo from "../images/LogoTeste.png"
+import Logo from '../images/logoHorizRoxa.png'
 import Footer from '../components/Footer'
 
 const options = {
@@ -70,7 +70,7 @@ const Post = ({ data }) => {
             <div class="bg-white mb-20">
                 <div class="mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12">
                     <div class="col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32">
-                        <img src={Logo} alt="Logo Escoben Contabilidade" />
+                        <img src={Logo} alt="Logo Escoben Contabilidade" className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4'/>
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#dbbee0]"></div>
                     <div class="col-span-11 lg:col-span-6">

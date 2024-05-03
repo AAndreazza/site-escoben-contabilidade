@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js'
-import Logo from '../images/LogoTeste.png'
+import Logo from '../images/logoHorizRoxa.png'
 import Contabilidade from './Servicos/Contabilidade.js';
 import GestaoFiscal from './Servicos/GestaoFiscal.js';
 import GestaoTrabalhista from './Servicos/GestaoTrabalhista.js';
@@ -25,7 +25,7 @@ const PaginaServicos = () => {
             <div className='bg-white py-20'>
                 <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12'>
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
-                        <img src={Logo} alt='Logo Escoben Contabilidade' />
+                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4'/>
                     </div>
                     <div className='ml-5 h-22 w-2 bg-[#dbbee0]'></div>
                     <div className='col-span-11 lg:col-span-6'>

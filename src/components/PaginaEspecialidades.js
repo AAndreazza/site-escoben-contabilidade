@@ -5,7 +5,7 @@ import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js';
-import Logo from '../images/LogoTeste.png'
+import Logo from '../images/logoHorizRoxa.png'
 
 const PaginaEspecialidades = () => {
     return (
@@ -21,11 +21,11 @@ const PaginaEspecialidades = () => {
             <div className='bg-white py-20'>
                 <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12'>
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
-                        <img src={Logo} alt='Logo Escoben Contabilidade'/>
+                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4'/>
                     </div>
                     <div className='ml-5 h-22 w-2 bg-[#dbbee0]'></div>
                     <div className='col-span-11 lg:col-span-6'>
-                        <p className='sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black'>Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
+                        <p className='sm:ml-0 ml-14 text-xl sm:text-2xl font-montserrat leading-6 text-black'>Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
                     </div>
                 </div>
             </div>
