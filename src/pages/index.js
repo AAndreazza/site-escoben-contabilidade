@@ -18,9 +18,9 @@ const Index = () => {
             <Seo title='' description='' />
             {/* MENUS + BANNER BLOG */}
             <div className="sm:static relative font-montserrat bg-[#633259] py-28 sm:py-0">
-                <img src={Banner} alt='homem de óculos' className='absolute inset-0 h-full w-full object-cover opacity-10 sm:opacity-100'/>
+                <img src={Banner} alt='homem de óculos' className='absolute inset-0 sm:inset-y-28 h-full w-full object-cover opacity-10 sm:opacity-100'/>
                 <div className='sm:absolute sm:inset-0 sm:mt-10 mx-8 sm:mx-20'>
-                <p class="mt-8 sm:mt-40 text-base text-[#c996bf] sm:text-[#633259] font-semibold sm:text-2xl mb-2 sm:mb-4">Contabilidade em Benedito Novo</p>
+                <p class="mt-8 sm:mt-48 lg:mt-60 text-base text-[#c996bf] sm:text-[#633259] font-semibold sm:text-2xl mb-2 sm:mb-4">Contabilidade em Benedito Novo</p>
                 <h2 class="text-xl mr-4 sm:mr-0 max-w-lg sm:text-2xl font-bold text-[#e4d5e7] sm:text-[#a7668d] mb-2">NOSSO PROPÓSITO É TRANSFORMAR A SUA EMPRESA EM UM NEGÓCIO DE SUCESSO!</h2>
                 <p class="mt-0 max-w-lg text-[#d4abcc] sm:text-[#633259] text-base sm:text-lg">Soluções completas para a gestão contábil, fiscal e financeira da sua empresa.</p>
                 <div class="mt-10">

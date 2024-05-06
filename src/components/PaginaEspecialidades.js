@@ -23,7 +23,7 @@ const PaginaEspecialidades = () => {
             <div className='py-20'>
                 <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12'>
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
-                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4' />
+                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-14 mb-4 lg:mt-7' />
                     </div>
                     <div className='ml-5 h-22 w-2 bg-[#ddbed7]'></div>
                     <div className='col-span-11 lg:col-span-6'>

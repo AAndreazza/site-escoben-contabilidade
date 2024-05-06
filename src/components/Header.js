@@ -8,7 +8,7 @@ const NavBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <header className='absolute inset-x-0 top-0 z-50 bg-gray-50 mt-5 mx-5 lg:mx-10 rounded-full font-montserrat' id='inicial'>
+    <header className='absolute inset-x-0 top-0 z-50 bg-[#d192c3] mt-5 mx-5 lg:mx-10 rounded-full font-montserrat' id='inicial'>
       <nav className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8' aria-label='Global'>
         <div className='flex lg:flex-1'>
           <a href='/' className='-m-1.5 p-1.5'>
@@ -30,13 +30,13 @@ const NavBar = () => {
           </button>
         </div>
         <div className='hidden lg:flex lg:gap-x-8'>
-          <a href='../sobre' className='mt-2 text-base leading-6 text-gray-900'>Sobre</a>
+          <a href='../sobre' className='mt-2 text-base leading-6 text-white'>Sobre</a>
 
           <div className='relative'>
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button type='button' className='mt-2 flex items-center gap-x-1 text-base leading-6 text-gray-900' aria-expanded='false'>
+                  <Disclosure.Button type='button' className='mt-2 flex items-center gap-x-1 text-base leading-6 text-white' aria-expanded='false'>
                     Especialidades
                     <svg className={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                       } h-5 w-5 `} viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
@@ -44,11 +44,11 @@ const NavBar = () => {
                     </svg>
                   </Disclosure.Button>
 
-                  <Disclosure.Panel className='text-gray-500 bg-gray-50'>
-                    <div className='absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl p-2 shadow-lg ring-1 ring-gray-900/5 bg-gray-50'>
-                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Contabilidade para comércio</a>
-                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Contabilidade para serviço</a>
-                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Contabilidade para indústria</a>
+                  <Disclosure.Panel className='text-gray-500'>
+                    <div className='absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl p-2 shadow-lg ring-1 ring-gray-900/5 bg-[#d192c3]'>
+                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Contabilidade para comércio</a>
+                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Contabilidade para serviço</a>
+                      <a href='../especialidades' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Contabilidade para indústria</a>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -61,7 +61,7 @@ const NavBar = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button type='button' className='mt-2 flex items-center gap-x-1 text-base leading-6 text-gray-900 ' aria-expanded='false'>
+                  <Disclosure.Button type='button' className='mt-2 flex items-center gap-x-1 text-base leading-6 text-white ' aria-expanded='false'>
                     Serviços
                     <svg className={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                       } h-5 w-5 `} viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
@@ -70,14 +70,14 @@ const NavBar = () => {
                   </Disclosure.Button>
 
                   <Disclosure.Panel className='text-gray-500'>
-                    <div className='absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl p-2 shadow-lg ring-1 ring-gray-900/5 bg-gray-50'>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Contabilidade</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Gestão Fiscal</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Gestão Trabalhista e Previdenciária</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Gestão Societária e Outros Serviços</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Controle dos Investimentos na Bolsa de Valores</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Imposto de Renda da Pessoa Física</a>
-                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-gray-900 hover:bg-gray-200'>Consultoria e Treinamentos</a>
+                    <div className='absolute -left-8 top-full z-10 mt-3 w-80 rounded-xl p-2 shadow-lg ring-1 ring-gray-900/5 bg-[#d192c3]'>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Contabilidade</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Gestão Fiscal</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Gestão Trabalhista e Previdenciária</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Gestão Societária e Outros Serviços</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Controle dos Investimentos na Bolsa de Valores</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Imposto de Renda da Pessoa Física</a>
+                      <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#633259]'>Consultoria e Treinamentos</a>
                     </div>
                   </Disclosure.Panel>
                 </>
@@ -85,8 +85,8 @@ const NavBar = () => {
             </Disclosure>
           </div>
 
-          <a href='../blog' className='mt-2 text-base leading-6 text-gray-900'>Blog</a>
-          <a href='../contato' className='mt-2 text-base leading-6 text-gray-900'>Contato</a>
+          <a href='../blog' className='mt-2 text-base leading-6 text-white'>Blog</a>
+          <a href='../contato' className='mt-2 text-base leading-6 text-white'>Contato</a>
 
           <div className='hidden lg:flex lg:gap-x-2'>
             <Link to={URLS.portalCliente} target='_blank' rel='noopener' className='ml-4 text-base rounded-full bg-[#633259] drop-shadow-2xl px-4 py-2 text-white hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b9aace]'>Portal do Cliente</Link>
@@ -117,7 +117,7 @@ const NavBar = () => {
           </div>
 
           <div className='mt-6 flow-root'>
-            <a href='../sobre' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100'>Sobre</a>
+            <a href='../sobre' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-grey-800 hover:bg-gray-100'>Sobre</a>
 
 
             <div className='-my-6 divide-y divide-gray-500/10'>
@@ -126,7 +126,7 @@ const NavBar = () => {
                   <Disclosure>
                     {({ open }) => (
                       <>
-                        <Disclosure.Button type='button' className='flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-100' aria-controls='disclosure-1' aria-expanded='false'>
+                        <Disclosure.Button type='button' className='flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-grey-800 hover:bg-gray-100' aria-controls='disclosure-1' aria-expanded='false'>
                           Especialidades
                           <svg className={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                             } h-5 w-5 `} viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
@@ -136,9 +136,9 @@ const NavBar = () => {
 
                         <Disclosure.Panel className='text-gray-500'>
                           <div className='mt-2 space-y-2 bg-gray-100' id='disclosure-1'>
-                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Contabilidade para comércio</a>
-                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Contabilidade para serviço</a>
-                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Contabilidade para indústria</a>
+                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Contabilidade para comércio</a>
+                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Contabilidade para serviço</a>
+                            <a href='../especialidades' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Contabilidade para indústria</a>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -150,7 +150,7 @@ const NavBar = () => {
                   <Disclosure>
                     {({ open }) => (
                       <>
-                        <Disclosure.Button type='button' className='flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-100' aria-controls='disclosure-2' aria-expanded='false'>
+                        <Disclosure.Button type='button' className='flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-grey-800 hover:bg-gray-100' aria-controls='disclosure-2' aria-expanded='false'>
                           Serviços
                           <svg className={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
                             } h-5 w-5 `} viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
@@ -160,13 +160,13 @@ const NavBar = () => {
 
                         <Disclosure.Panel className='text-gray-500'>
                           <div className='mt-2 space-y-2 bg-gray-100' id='disclosure-2'>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Contabilidade</a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Gestão Fiscal</a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Gestão Trabalhista e Previdenciária </a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Gestão Societária e Outros Serviços</a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Controle dos Investimentos na Bolsa de Valores </a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Imposto de Renda da Pessoa Física</a>
-                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-100'>Consultoria e Treinamentos</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Contabilidade</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Gestão Fiscal</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Gestão Trabalhista e Previdenciária </a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Gestão Societária e Outros Serviços</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Controle dos Investimentos na Bolsa de Valores </a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Imposto de Renda da Pessoa Física</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-grey-800 hover:bg-gray-100'>Consultoria e Treinamentos</a>
                           </div>
                         </Disclosure.Panel>
                       </>
@@ -176,8 +176,8 @@ const NavBar = () => {
               </div>
             </div>
 
-            <a href='../blog' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100'>Blog</a>
-            <a href='../contato' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-100'>Contato</a>
+            <a href='../blog' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-grey-800 hover:bg-gray-100'>Blog</a>
+            <a href='../contato' className='-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-grey-800 hover:bg-gray-100'>Contato</a>
             <Link to={URLS.portalCliente} target='_blank' rel='noopener' className='sm:ml-4 mx-10 sm:mx-0 mt-4 sm:mt-0 block text-center text-lg rounded-full bg-[#633259] drop-shadow-xl px-4 py-3 text-white hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b9aace]'>Portal do Cliente <span aria-hidden='true'> &rarr;</span></Link>
             <Link to={URLS.portalEmpregado} target='_blank' rel='noopener' className='mx-6 sm:mx-0 mt-4 sm:mt-0 block text-center text-lg rounded-full bg-[#633259] drop-shadow-xl px-4 py-3 text-white hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b9aace]'>Portal do Empregado <span aria-hidden='true'> &rarr;</span></Link>
 

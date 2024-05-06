@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 const Especialidades = () => {
     return (
-        <div className='mt-0 sm:mt-80 py-14 sm:py-24 font-montserrat'>
-            <div className='mx-auto max-w-7xl sm:mt-60'>
+        <div className='mt-0 sm:mt-80 py-14 sm:py-24 lg:py-80 font-montserrat'>
+            <div className='mx-auto max-w-7xl sm:mt-80'>
                 <div className='mx-auto text-center'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-[#e6d4e2]'>ESPECIALIDADES</h2>
                     <p className='mt-0 text-xl font-semibold text-gray-900 sm:text-4xl'>Serviços de Contabilidade Especializados para:</p>

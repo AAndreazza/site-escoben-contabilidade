@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-12 lg:px-8 lg:py-12'>
                 <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
                     <ScrollLink to='inicial' spy={true} smooth={true} className='cursor-pointer'>
-                        <img src={Logo} alt='Escoben Contabilidade' className='lg:w-90 lg:h-28'/>
+                        <img src={Logo} alt='Escoben Contabilidade'/>
                     </ScrollLink>
 
                     <div className='grid grid-cols-2 xl:col-span-2'>
