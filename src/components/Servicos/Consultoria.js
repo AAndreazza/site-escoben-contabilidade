@@ -9,7 +9,7 @@ const Consultoria = () => {
         <div className='font-montserrat mt-20 sm:mt-20'>
             <div className='mx-auto max-w-7xl px-8 sm:px-40'>
                 <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
-                    <h1 className='text-3xl font-bold text-[#55274c] sm:text-4xl lg:col-span-2 xl:col-auto'>CONSULTORIA & <br/>TREINAMENTOS</h1>
+                    <h1 className='text-3xl font-bold text-[#55274c] sm:text-4xl lg:col-span-2 xl:col-auto' id='consultoria'>CONSULTORIA & <br/>TREINAMENTOS</h1>
                     <div className='mt-6 max-w-xl lg:mt-2 xl:col-end-1 xl:row-start-1'>
                         <ul className='space-y-4 text-lg leading-6 text-gray-800'>
                             <li className='flex gap-x-1'>

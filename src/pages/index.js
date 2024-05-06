@@ -17,7 +17,7 @@ const Index = () => {
         <div className='bg-gray-100 font-montserrat'>
             <Seo title='' description='' />
             {/* MENUS + BANNER BLOG */}
-            <div className="sm:static relative font-montserrat bg-[#633259] py-28 sm:py-0">
+            <div className="sm:static relative font-montserrat bg-[#633259] py-28 sm:py-0 sm:-mb-44">
                 <img src={Banner} alt='homem de óculos' className='absolute inset-0 sm:inset-y-28 h-full w-full object-cover opacity-10 sm:opacity-100'/>
                 <div className='sm:absolute sm:inset-0 sm:mt-10 mx-8 sm:mx-20'>
                 <p class="mt-8 sm:mt-48 lg:mt-60 text-base text-[#c996bf] sm:text-[#633259] font-semibold sm:text-2xl mb-2 sm:mb-4">Contabilidade em Benedito Novo</p>

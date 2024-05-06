@@ -14,7 +14,7 @@ const ImpostoRenda = () => {
                         className='hidden lg:block lg:w-80 lg-h-80 lg:mt-20 xl:row-span-2 xl:row-end-2'
                     />
                     <div className='max-w-xl lg:mt-0 xl:col-start-2 xl:col-end-3 xl:row-start-1'>
-                        <h1 className='text-3xl font-bold text-[#55274c] sm:text-4xl lg:col-span-2 xl:col-auto'>IMPOSTO DE RENDA DA PESSOA FÍSICA</h1>
+                        <h1 className='text-3xl font-bold text-[#55274c] sm:text-4xl lg:col-span-2 xl:col-auto' id='impostoRenda'>IMPOSTO DE RENDA DA PESSOA FÍSICA</h1>
                         <ul className='mt-6 space-y-4 text-lg leading-6 text-gray-800'>
                             <li className='flex gap-x-1'>
                                 <svg className='h-6 w-5 flex-none text-[#633259]' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
