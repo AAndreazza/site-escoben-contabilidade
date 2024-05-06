@@ -7,5 +7,12 @@ export const URLS = {
   }
 
 export const CTA_WHATSAPP_MENSAGENS = {
-  ctaButton: 'Olá! Estive no site e fiquei interessado nos seus serviços. Poderia me ajudar?'
+  ctaButton: 'Olá! Estive no site e fiquei interessado nos seus serviços. Poderia me ajudar?',
+  ctaContabilidade: 'Olá! Estive no site e fiquei interessado no serviço de contabilidade. Poderia me ajudar?',
+  ctaGestaoFiscal: 'Olá! Estive no site e fiquei interessado no serviço de gestão fiscal. Poderia me ajudar?',
+  ctaGestaoTrabalhista: 'Olá! Estive no site e fiquei interessado no serviço de gestão trabalhista e previdenciária. Poderia me ajudar?',
+  ctaGestaoSocietaria: 'Olá! Estive no site e fiquei interessado no serviço de gestão societária e/ou outro. Poderia me ajudar?',
+  ctaControleInvestimento: 'Olá! Estive no site e fiquei interessado no serviço de controle dos investimentos na bolsa de valores. Poderia me ajudar?',
+  ctaImpostoRenda: 'Olá! Estive no site e fiquei interessado no serviço de imposto de renda de pessoa física. Poderia me ajudar?',
+  ctaConsultoria: 'Olá! Estive no site e fiquei interessado no serviço de consultoria e/ou treinamentos. Poderia me ajudar?',
 }

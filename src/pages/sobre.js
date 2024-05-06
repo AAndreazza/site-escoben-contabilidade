@@ -5,7 +5,7 @@ import PaginaSobre from '../components/PaginaSobre'
 
 const Sobre = () => {
     return (
-        <div>
+        <div className='bg-gray-100 font-montserrat'>
             <Seo title='' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PaginaSobre></PaginaSobre>

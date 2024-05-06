@@ -5,26 +5,28 @@ import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Logo from '../images/logoHorizRoxa.png'
+import Banner from '../images/bannerContato.jpg'
 
 const PaginaContato = () => {
     return (
         <div>
             {/* MENUS + BANNER CONTATO */}
-            <div className='bg-[#4f2158] py-32 sm:py-44'>
+            <div className='relative bg-[#633259] py-32 sm:py-56'>
+                <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>CONTATO</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Fale conosco</p>
                 <Header></Header>
             </div>
 
             {/* LOGO + TEXTO */}
-            <div className='bg-white py-20'>
+            <div className='py-20'>
                 <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12'>
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
-                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4'/>
+                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4' />
                     </div>
-                    <div className='ml-5 h-22 w-2 bg-[#dbbee0]'></div>
+                    <div className='ml-5 h-22 w-2 bg-[#ddbed7]'></div>
                     <div className='col-span-11 lg:col-span-6'>
-                        <p className='mx-4 sm:ml-0 ml-12 text-xl sm:text-2xl font-montserrat leading-6 text-black'><b>Quer saber como a Escoben pode ajudar no crescimento da sua empresa?</b> Entre em contato através de um dos meios abaixo e fale com os nossos especialistas.</p>
+                        <p className='mx-4 sm:ml-0 ml-12 mr-6 text-xl sm:text-2xl font-montserrat leading-6 text-black'><b>Quer saber como a Escoben pode ajudar no crescimento da sua empresa?</b> Entre em contato através de um dos meios abaixo e fale com os nossos especialistas.</p>
                     </div>
                 </div>
             </div>
@@ -35,18 +37,18 @@ const PaginaContato = () => {
                 {/* FORMULARIO */}
                 <div className='isolate px-6 mb-20 lg:px-20 font-montserrat'>
 
-                    <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#793486] shadow-2xl'>
-                        <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <textarea name='mensagem' id='mensagem' rows='4' placeholder='Mensagem' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
+                    <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#633259] bg-[#633259] shadow-2xl'>
+                        <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
+                        <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
+                        <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
+                        <textarea name='mensagem' id='mensagem' rows='4' placeholder='Mensagem' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                         <input type='hidden' name='_next' value='http://localhost:8000/especialidades/' />
                         <input type='hidden' name='_captcha' value='false' />
 
                         <div className='mt-10 sm:mt-10 mb-10 text-center'>
                             <button
                                 type='submit'
-                                className='rounded-full bg-[#793486] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-5 font-semibold text-lg text-white shadow-sm hover:bg-[#b05fc0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                className='rounded-full bg-[#bea0b8] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-2 font-semibold text-lg text-[#31182c] shadow-sm hover:bg-[#d6c5d3] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                             >
                                 Enviar mensagem
                             </button>

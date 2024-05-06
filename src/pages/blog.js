@@ -5,7 +5,7 @@ import PagesBlog from '../components/PagesBlog'
 
 const Blog = () => {
     return (
-        <div> 
+        <div className='bg-gray-100 font-montserrat'> 
             <Seo title='' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PagesBlog></PagesBlog>

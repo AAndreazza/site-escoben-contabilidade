@@ -5,7 +5,7 @@ import PaginaEspecialidades from '../components/PaginaEspecialidades'
 
 const Especialidades = () => {
     return (
-        <div>
+        <div className='bg-gray-100 font-montserrat'>
             <Seo title='' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PaginaEspecialidades></PaginaEspecialidades>

@@ -5,7 +5,7 @@ import PaginaContato from '../components/PaginaContato'
 
 const Contato = () => {
     return (
-        <div> 
+        <div className='bg-gray-100 font-montserrat'> 
             <Seo title='' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PaginaContato></PaginaContato>

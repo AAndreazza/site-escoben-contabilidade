@@ -15,7 +15,7 @@ const ProvasSociais = () => {
     return (
         <div>
             <div className='mx-auto text-center'>
-                <h2 className='text-5xl sm:text-7xl font-bold text-[#e4d5e7]'>DEPOIMENTOS</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold text-[#e6d4e2]'>DEPOIMENTOS</h2>
                 <p className='mt-0 text-xl font-semibold text-gray-900 sm:text-3xl'>Nossos Depoimentos</p>
             </div>
 

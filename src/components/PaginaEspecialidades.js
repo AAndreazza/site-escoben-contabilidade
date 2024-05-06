@@ -6,26 +6,28 @@ import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js';
 import Logo from '../images/logoHorizRoxa.png'
+import Banner from '../images/bannerEspecialidades.jpg'
 
 const PaginaEspecialidades = () => {
     return (
         <div>
             {/* MENUS + BANNER ESPECIALIDADES */}
-            <div className='bg-[#4f2158] py-32 sm:py-44'>
+            <div className='relative bg-[#633259] py-32 sm:py-56'>
+                <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>ESPECIALIDADES</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Serviços de Contabilidade Especializados</p>
                 <Header></Header>
             </div>
 
             {/* LOGO + TEXTO */}
-            <div className='bg-white py-20'>
+            <div className='py-20'>
                 <div className='mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-12'>
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
-                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4'/>
+                        <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-20 mb-4 lg:w-90 lg:h-24 lg:mt-4' />
                     </div>
-                    <div className='ml-5 h-22 w-2 bg-[#dbbee0]'></div>
+                    <div className='ml-5 h-22 w-2 bg-[#ddbed7]'></div>
                     <div className='col-span-11 lg:col-span-6'>
-                        <p className='sm:ml-0 ml-14 text-xl sm:text-2xl font-montserrat leading-6 text-black'>Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
+                        <p className='lg:ml-0 ml-14 mr-6 text-xl sm:text-2xl font-montserrat leading-6 text-black'>Atendemos de forma personalizada empresas do <b>Lucro Real, Presumido, e Simples Nacional de todos os setores</b>, realizando o melhor planejamento tributário.</p>
                     </div>
                 </div>
             </div>
@@ -254,7 +256,7 @@ const PaginaEspecialidades = () => {
                 <Link
                     to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
                     target='_blank'
-                    className='rounded-full bg-[#793486] drop-shadow-2xl px-6 sm:px-16 py-4 text-xl sm:text-2xl mb-8 font-semibold text-white shadow-sm hover:bg-[#ac76f1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                    className='rounded-full bg-[#633259] drop-shadow-2xl px-6 sm:px-16 py-4 text-xl sm:text-2xl mb-8 font-semibold text-white shadow-sm hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Fale com um especialista
                     <span aria-hidden='true'> &rarr;</span>
@@ -263,8 +265,8 @@ const PaginaEspecialidades = () => {
 
             {/* FORMULARIO */}
             <div className='mt-20 sm:mt-32 mx-auto text-center'>
-                <h2 className='text-4xl sm:text-6xl font-bold text-[#e4d5e7] '>ENTRE EM CONTATO</h2>
-                <p className='text-lg sm:text-xl font-semibold text-[#392c3b]'>Mande-nos uma mensagem. Responderemos diretamente no seu e-mail!</p>
+                <h2 className='text-3xl sm:text-6xl font-bold text-[#e6d4e2] '>ENTRE EM CONTATO</h2>
+                <p className='text-lg sm:text-xl font-semibold text-[#392c3b] mx-10 sm:mx-0'>Mande-nos uma mensagem. Responderemos diretamente no seu e-mail!</p>
             </div>
             <Formulario></Formulario>
 
