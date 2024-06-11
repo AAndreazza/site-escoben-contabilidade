@@ -29,7 +29,7 @@ const PagesBlog = () => {
     return (
         <div>
             {/* MENUS + BANNER BLOG */}
-            <div className='relative bg-[#633259] py-32 sm:py-56'>
+            <div className='relative bg-[#4b253c] py-32 sm:py-56'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>BLOG</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Acompanhe nossas publicações</p>
@@ -49,7 +49,7 @@ const PagesBlog = () => {
                         <div className='text-center mt-4 mb-4'>
                             <a
                                 href={post.node.slug}
-                                className='text-lg mb-8 font-semibold text-gray-800'
+                                className='text-lg mb-8 font-semibold text-gray-900'
                             >
                                 Leia o post
                                 <span aria-hidden='true'> &rarr;</span>

@@ -11,7 +11,7 @@ const PaginaContato = () => {
     return (
         <div>
             {/* MENUS + BANNER CONTATO */}
-            <div className='relative bg-[#633259] py-32 sm:py-56'>
+            <div className='relative bg-[#4b253c] py-32 sm:py-56'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>CONTATO</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Fale conosco</p>
@@ -24,7 +24,7 @@ const PaginaContato = () => {
                     <div className='col-span-12 lg:col-span-5 mx-auto mb-5 sm:mb-0 sm:ml-32'>
                         <img src={Logo} alt='Logo Escoben Contabilidade' className='w-80 h-14 mb-4 lg:mt-7' />
                     </div>
-                    <div className='ml-5 h-22 w-2 bg-[#ddbed7]'></div>
+                    <div className='ml-5 h-22 w-2 bg-[#4b253c]'></div>
                     <div className='col-span-11 lg:col-span-6'>
                         <p className='mx-4 sm:ml-0 ml-12 mr-6 text-xl sm:text-2xl font-montserrat leading-6 text-black'><b>Quer saber como a Escoben pode ajudar no crescimento da sua empresa?</b> Entre em contato através de um dos meios abaixo e fale com os nossos especialistas.</p>
                     </div>
@@ -37,7 +37,7 @@ const PaginaContato = () => {
                 {/* FORMULARIO */}
                 <div className='isolate px-6 mb-20 lg:px-20 font-montserrat'>
 
-                    <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#633259] bg-[#633259] shadow-2xl'>
+                    <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#4b253c] bg-[#4b253c] shadow-2xl'>
                         <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                         <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                         <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
@@ -48,7 +48,7 @@ const PaginaContato = () => {
                         <div className='mt-10 sm:mt-10 mb-10 text-center'>
                             <button
                                 type='submit'
-                                className='rounded-full bg-[#bea0b8] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-2 font-semibold text-lg text-[#31182c] shadow-sm hover:bg-[#d6c5d3] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                className='rounded-full bg-[#d6c5d3] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-2 font-semibold text-lg text-[#31182c] shadow-sm hover:bg-[#ebe1e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                             >
                                 Enviar mensagem
                             </button>
@@ -66,12 +66,12 @@ const PaginaContato = () => {
                                 <svg
                                     xmlns='http://www.w3.org/2000/svg'
                                     fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor'
-                                    className='h-7 w-6 text-[#4f2158]'>
+                                    className='h-7 w-6 text-[#4b253c]'>
                                     <path
                                         stroke-linecap='round' stroke-linejoin='round' d='M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z' />
                                 </svg>
                             </dt>
-                            <dd className='text-xl text-[#4f2158]' to='#' >+55 47 3385-0127</dd>
+                            <dd className='text-xl text-[#4b253c]' to='#' >+55 47 3385-0127</dd>
                         </div>
                     </li>
                     <li>
@@ -81,7 +81,7 @@ const PaginaContato = () => {
                                 <Link to=''>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
-                                        className='h-7 w-6 text-[#4f2158]'
+                                        className='h-7 w-6 text-[#4b253c]'
                                         fill='currentColor'
                                         viewBox='0 0 24 24'>
                                         <path
@@ -90,7 +90,7 @@ const PaginaContato = () => {
                                 </Link>
                             </dt>
                             <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)} target='_blank'>
-                                <dd className='text-xl text-[#4f2158]' >+55 47 99177-4139</dd>
+                                <dd className='text-xl text-[#4b253c]' >+55 47 99177-4139</dd>
                             </Link>
                         </div>
                     </li>
@@ -99,12 +99,12 @@ const PaginaContato = () => {
                             <dt className='flex-none'>
                                 <span className='sr-only'>Email</span>
                                 <Link to='mailto:adicionar'>
-                                    <svg className='h-7 w-6 text-[#4f2158]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                                    <svg className='h-7 w-6 text-[#4b253c]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                                         <path stroke-linecap='round' stroke-linejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
                                     </svg>
                                 </Link>
                             </dt>
-                            <dd><Link to='mailto:adicionar' className='text-xl text-[#4f2158]'>contato@escoben.com.br</Link></dd>
+                            <dd><Link to='mailto:adicionar' className='text-xl text-[#4b253c]'>contato@escoben.com.br</Link></dd>
                         </div>
                     </li>
                     <li>
@@ -114,7 +114,7 @@ const PaginaContato = () => {
                                 <Link to={URLS.instagram}>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
-                                        className='h-7 w-6 text-[#4f2158]'
+                                        className='h-7 w-6 text-[#4b253c]'
                                         fill='currentColor'
                                         viewBox='0 0 24 24'>
                                         <path
@@ -123,7 +123,7 @@ const PaginaContato = () => {
                                 </Link>
                             </dt>
                             <Link to={URLS.instagram} target='_blank'>
-                                <dd className='text-xl text-[#4f2158]' >@escoben_contabilidade</dd>
+                                <dd className='text-xl text-[#4b253c]' >@escoben_contabilidade</dd>
                             </Link>
                         </div>
                     </li>
@@ -132,13 +132,13 @@ const PaginaContato = () => {
                             <dt className='flex-none'>
                                 <span className='sr-only'>Endereco</span>
                                 <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
-                                    <svg className='h-7 w-6 text-[#4f2158]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                                    <svg className='h-7 w-6 text-[#4b253c]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                                         <path stroke-linecap='round' stroke-linejoin='round' d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z' />
                                     </svg>
                                 </Link>
                             </dt>
                             <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
-                                <dd className='text-xl text-[#4f2158]'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
+                                <dd className='text-xl text-[#4b253c]'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
                             </Link>
                         </div>
                     </li>

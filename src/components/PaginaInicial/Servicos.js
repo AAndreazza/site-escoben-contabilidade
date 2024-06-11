@@ -18,14 +18,14 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/cash-receipt.png' alt='cash-receipt' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Contabilidade</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Contabilidade</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Cumpriremos todas as suas obrigações contábeis e burocráticas.</dd>
                                 </div>
                             </div>
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/receipt-approved.png' alt='receipt-approved' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Gestão Fiscal</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Gestão Fiscal</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Cumpriremos todas as suas obrigações fiscais, realizando todo o controle e orientação.</dd>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/lawyer.png' alt='lawyer' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Gestão Trabalhista e Previdenciária</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Gestão Trabalhista e Previdenciária</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Cumpriremos todas as suas obrigações trabalhistas, realizando todo o controle e orientação.</dd>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/crowdfunding.png' alt='crowdfunding' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Gestão Societária e Outros Serviços</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Gestão Societária e Outros Serviços</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Abertura de empresa, consultoria empresarial, regularização de empresas, etc.</dd>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/fund-accounting.png' alt='fund-accounting' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Controle dos Investimentos na Bolsa de Valores</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Controle dos Investimentos na Bolsa de Valores</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Calculamos as guias de impostos a pagar, além de controlar a rentabilidade da sua carteira.</dd>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/get-cash--v1.png' alt='get-cash--v1' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Imposto de Renda da Pessoa Física</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Imposto de Renda da Pessoa Física</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Fazemos a declaração do imposto de renda, carnê-leão, ganho de capital, regularização de CPF e cáculo de impostos.</dd>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ const Servicos = () => {
                             <div className='flex items-center'>
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/bullish--v1.png' alt='bullish--v1' />
                                 <div>
-                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#633259]'>Consultoria & Treinamentos</dt>
+                                    <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Consultoria & Treinamentos</dt>
                                     <dd className='mt-2 text-lg leading-7 text-gray-800'>Ganhe velocidade e conhecimento para aumentar o faturamento da sua empresa. Consultorias nas áreas fiscal, tributária, contábil e trabalhista.</dd>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const Servicos = () => {
                             <div className='flex items-center ml-0 sm:ml-20 text-center'>
                                 <Link
                                     to='../../servicos'
-                                    className='rounded-full bg-[#633259] drop-shadow-2xl px-8 py-4 mb-8 text-xl font-semibold text-white shadow-sm hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                    className='rounded-full bg-[#4b253c] drop-shadow-2xl px-8 py-4 mb-8 text-xl font-semibold text-white shadow-sm hover:bg-[#5f374f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     Veja todos os nossos serviços
                                     <span aria-hidden='true'> &rarr;</span>

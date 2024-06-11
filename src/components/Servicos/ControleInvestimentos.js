@@ -9,7 +9,7 @@ const ControleInvestimentos = () => {
         <div className='font-montserrat mt-20 sm:mt-20'>
             <div className='mx-auto max-w-7xl px-8 sm:px-40'>
                 <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
-                    <h1 className='text-3xl font-bold text-[#55274c] mx-auto sm:text-4xl lg:col-span-2 xl:col-auto' id='controleInvestimentos'>CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
+                    <h1 className='text-3xl font-bold text-[#4b253c] mx-auto sm:text-4xl lg:col-span-2 xl:col-auto' id='controleInvestimentos'>CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
                     <div className='mt-6 max-w-xl lg:mt-2 xl:col-end-1 xl:row-start-1'>
                         <h2 className='text-lg leading-7 text-gray-800'>
                             Para a realização desse serviço, <br />entre em contato conosco.
@@ -19,7 +19,7 @@ const ControleInvestimentos = () => {
                             <Link
                                 to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaControleInvestimento)}
                                 target='_blank'
-                                className='rounded-full bg-[#633259] px-4 sm:px-8 py-3 text-lg sm:text-xl font-semibold text-white hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                className='rounded-full bg-[#4b253c] px-4 sm:px-8 py-3 text-lg sm:text-xl font-semibold text-white hover:bg-[#5f374f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                             >
                                 Fale com um especialista
                                 <span aria-hidden='true'> &rarr;</span>

@@ -21,7 +21,7 @@ const Especialidades = () => {
                             <p className='mt-8'>
                                 <Link
                                     to='../../especialidades'
-                                    className='rounded-full bg-[#633259] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                    className='rounded-full bg-[#4b253c] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#5f374f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
                                 </Link>
@@ -36,7 +36,7 @@ const Especialidades = () => {
                             <p className='mt-8'>
                                 <Link
                                     to='../../especialidades'
-                                    className='rounded-full bg-[#633259] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                    className='rounded-full bg-[#4b253c] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#5f374f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
                                 </Link>
@@ -51,7 +51,7 @@ const Especialidades = () => {
                             <p className='mt-8'>
                                 <Link
                                     to='../../especialidades'
-                                    className='rounded-full bg-[#633259] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#8b4c7f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                    className='rounded-full bg-[#4b253c] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-white shadow-sm hover:bg-[#5f374f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                                 >
                                     SAIBA MAIS
                                 </Link>
