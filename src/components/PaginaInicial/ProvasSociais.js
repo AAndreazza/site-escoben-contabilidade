@@ -2,66 +2,67 @@ import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import './customStyles.css';
+
+const depoimentos = [
+    {
+        texto: "Sempre é muito bom falar da empresa Escoben, uma empresa na qual nos auxiliou desde de o principio da CK Rastreamento dando suporte contábil e jurídico e auxilio em  gestão com sistema web para gestão de cobranças facilitando e dando muita agilidade para nossa empresa. Escoben é exemplo de profissionalismo! Investe em  seus funcionários com novas tecnologias e sistemas dando possibilidade de crescerem junto ao cenário mundial e sempre os deixando atualizados e capacitados para o novo Mundo Digital, facilitando a vida de seus clientes.",
+        nome: "Charles Klitzke",
+        empresa: "CK Rastreamento LTDA",
+    },
+    {
+        texto: 'Há 10 anos atrás quando iniciei a Ullemaq, procurei a Escoben para fazer a abertura da empresa. Em uma conversa com o Sr. Arthur, ele disse: "Márcio, se a Ullemaq sobrar R$5.000 em um mês, não financie uma camionete, guarde que mês que vem pode ser que falte". Uma frase que para muitos parece óbvia, mas pra mim, fez toda a diferença e continua fazendo até hoje. E assim completamos 10 anos com a Escoben sempre me assessorando para continuar crescendo. Por fim, agradeço a todos da Escoben.',
+        nome: "Márcio Uller",
+        empresa: "Ullemaq Confecções LTDA",
+    },
+    {
+        texto: "A Escoben é uma contabilidade competente que realiza seus trabalhos com profissionalismo e ética. Sobre qualidade e agilidade, somente tenho a elogiar e agradecer a equipe. São prestativos e de fácil comunicação. Sempre buscam aperfeiçoar a qualidade de seus serviços, mantendo-se atualizados. Estou satisfeito com nossa parceria e por isso recomendo.",
+        nome: "Gilmar Oss-Emer",
+        empresa: "Manejalu Confecções LTDA",
+    },
+    {
+        texto: "A Escoben não é uma simples contabilidade, é uma assessoria, é nossa bússola, com ela conseguimos visualizar e planejar o próximo passo a ser dado, passo seguro e sem incertezas, com a Escoben nos sentimos seguros. O sucesso de ambos andam lado a lado!",
+        nome: "Adilson Balsanelli",
+        empresa: "MBL Confecções LTDA",
+    },
+    {
+        texto: "Meu nome é Andreia Schulz, tenho a empresa a 12 anos desde que iniciei a minha carreira como empresária, tenho a Escoben como minha contabilidade, sempre muito dedicados, prestativos, e me auxiliando para sempre fazer o melhor para meu funcionários só tenho a agradecer.",
+        nome: "Andreia Schulz",
+        empresa: "Déia Confecções LTDA",
+    },
+]
 
 const ProvasSociais = () => {
     var settings = {
         dots: true,
         infinite: true,
-        arrows: false,
+        arrows: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        nextArrow: <div className="slick-next custom-arrow">&#8250;</div>,
+        prevArrow: <div className="slick-prev custom-arrow">&#8249;</div>,
     };
     return (
-        <div>
+        <div className='slider-container'>
             <div className='mx-auto text-center'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#e6d4e2]'>DEPOIMENTOS</h2>
                 <p className='mt-0 text-xl font-semibold text-gray-900 sm:text-3xl'>Nossos Depoimentos</p>
             </div>
 
-            <Slider {...settings} className='mt-10 max-w-2xl sm:max-w-4xl mx-auto'>
-                <div>
-                    <blockquote className='text-sm text-center leading-8 text-black mx-6 sm:text-xl sm:leading-9 sm:max-w-2xl sm:mx-auto'>
-                        <p>A Escoben é uma contabilidade competente que realiza seus trabalhos com profissionalismo e ética. Sobre qualidade e agilidade, somente tenho a elogiar e agradecer a equipe. São prestativos e de fácil comunicação.
-                            Sempre buscam aperfeiçoar a qualidade de seus serviços, mantendo-se atualizados. Estou satisfeito com nossa parceria e por isso recomendo.</p>
-                    </blockquote>
+            <Slider {...settings} className='mt-10 max-w-xl sm:max-w-4xl mx-auto'>
+                {depoimentos.map((item) => (
+                    <div>
+                        <blockquote className='text-sm text-center leading-8 text-black mx-12 max-w-sm sm:text-xl sm:leading-9 sm:max-w-2xl sm:mx-auto'>
+                            <p>{item.texto}</p>
+                        </blockquote>
 
-                    <figcaption className='mt-8 text-base text-center'>
-                        <div className='font-semibold text-black'>Gilmar Oss-Emer</div>
-                        <div className='mt-1 text-gray-600'>MANEJALU CONFECÇÕES</div>
-                    </figcaption>
-                </div>
-                <div>
-                    <blockquote className='text-sm text-center leading-8 text-black mx-6 sm:text-xl sm:leading-9 sm:max-w-2xl sm:mx-auto sm:mt-5'>
-                        <p>A ESCOBEN não é uma simples contabilidade, é uma assessoria, é nossa bússola, com ela conseguimos visualizar e planejar o próximo passo a ser dado, passo seguro e sem incertezas, com a ESCOBEN nos sentimos seguros.
-                            O sucesso de ambos andam lado a lado!</p>
-                    </blockquote>
-
-                    <figcaption className='mt-8 text-base text-center'>
-                        <div className='font-semibold text-black'>Adilsom</div>
-                        <div className='mt-1 text-gray-600'>MBL</div>
-                    </figcaption>
-                </div>
-                <div>
-                    <blockquote className='text-sm text-center leading-8 text-black mx-6 sm:text-xl sm:leading-9 sm:max-w-2xl sm:mx-auto sm:mt-5'>
-                        <p>Meu nome é Andreia Schulz, tenho a empresa a 12 anos desde que iniciei a minha carreira como empresária, tenho a Escoben como minha contabilidade, sempre muito dedicados, prestativos, e me auxiliando para sempre fazer o melhor para meu funcionários só tenho a agradecer.</p>
-                    </blockquote>
-
-                    <figcaption className='mt-8 text-base text-center'>
-                        <div className='font-semibold text-black'>Andreia Schulz</div>
-                        <div className='mt-1 text-gray-600'>INFORMAR EMPRESA</div>
-                    </figcaption>
-                </div>
-                <div>
-                    <blockquote className='text-xs text-center leading-8 text-black mx-6 sm:text-xl sm:leading-9'>
-                        <p>Sempre é muito bom falar da empresa Escoben, uma empresa na qual nos auxiliou desde de o principio da Ck Rastreamento dando suporte contábil e jurídico e auxilio em  gestão com sistema web para gestão de cobranças facilitando e dando muita agilidade para nossa empresa. Escoben é exemplo de profissionalismo! Investe em  seus funcionários com novas tecnologias e sistemas dando possibilidade de crescerem junto ao cenário mundial e sempre os deixando atualizados e capacitados para o novo Mundo Digital, facilitando a vida de seus clientes.</p>
-                    </blockquote>
-
-                    <figcaption className='mt-8 text-base text-center'>
-                        <div className='font-semibold text-black'>Charles Klitzke</div>
-                        <div className='mt-1 text-gray-600'>CK Rastreamento</div>
-                    </figcaption>
-                </div>
+                        <figcaption className='mt-8 text-base text-center'>
+                            <div className='font-semibold text-black'>{item.nome}</div>
+                            <div className='mt-1 text-gray-600'>{item.empresa}</div>
+                        </figcaption>
+                    </div>
+                ))}
             </Slider>
 
             {/*

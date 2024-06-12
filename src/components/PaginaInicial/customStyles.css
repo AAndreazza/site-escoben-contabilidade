@@ -1,0 +1,23 @@
+.custom-arrow {
+    color: #4b253c !important;
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #4b253c !important;
+    opacity: 1;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+    opacity: 0.8;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
