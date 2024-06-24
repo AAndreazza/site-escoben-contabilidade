@@ -7,15 +7,15 @@ import Servico from '../../images/impostoRenda.png'
 const ImpostoRenda = () => {
     return (
         <div className='font-montserrat mt-20 sm:mt-10'>
-            <div className='max-w-10xl ml-0 sm:ml-20 px-8 sm:px-40'>
-                <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
+            <div className='max-w-7xl mx-auto px-8 sm:px-40'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-8 items-center justify-center'>
                     <img src={Servico}
                         alt=''
-                        className='hidden lg:block lg:w-80 lg-h-80 lg:mt-20 xl:row-span-2 xl:row-end-2'
+                        className='mx-auto lg:mx-0 lg:mt-20 lg:w-80 lg:h-80 hidden lg:block'
                     />
-                    <div className='max-w-xl lg:mt-0 xl:col-start-2 xl:col-end-3 xl:row-start-1'>
-                        <h1 className='text-3xl font-bold text-[#4b253c] sm:text-4xl lg:col-span-2 xl:col-auto' id='impostoRenda'>IMPOSTO DE RENDA DA PESSOA FÍSICA</h1>
-                        <ul className='mt-6 space-y-4 text-lg leading-6 text-gray-800'>
+                    <div className='mx-auto lg:mx-0 lg:max-w-xl'>
+                        <h1 className='text-3xl font-bold text-[#4b253c] sm:text-4xl text-left' id='impostoRenda'>IMPOSTO DE RENDA DA PESSOA FÍSICA</h1>
+                        <ul className='mt-6 space-y-4 text-lg leading-6 text-gray-600'>
                             <li className='flex gap-x-1'>
                                 <svg className='h-6 w-5 flex-none text-[#4b253c]' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
                                     <path fill-rule='evenodd' d='M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z' clip-rule='evenodd' />
@@ -47,7 +47,7 @@ const ImpostoRenda = () => {
                                 Cálculo do Imposto de Transmissão, Causa ou Doação (ITCMD)
                             </li>
                         </ul>
-                        <div className='mt-10 text-center sm:mr-20'>
+                        <div className='mt-10 text-center lg:text-left'>
                             <Link
                                 to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaImpostoRenda)}
                                 target='_blank'

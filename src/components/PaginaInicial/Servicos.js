@@ -42,7 +42,7 @@ const Servicos = () => {
                                 <img className='h-20 w-20 mr-6' src='https://img.icons8.com/ios/100/crowdfunding.png' alt='crowdfunding' />
                                 <div>
                                     <dt className='text-xl sm:text-2xl font-bold leading-7 text-[#4b253c]'>Gestão Societária e Outros Serviços</dt>
-                                    <dd className='mt-2 text-lg leading-7 text-gray-800'>Abertura de empresa, consultoria empresarial, regularização de empresas, etc.</dd>
+                                    <dd className='mt-2 text-lg leading-7 text-gray-800'>Abertura de empresa, consultoria empresarial, regularização de empresas entre outros.</dd>
                                 </div>
                             </div>
 

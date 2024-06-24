@@ -80,6 +80,7 @@ const NavBar = () => {
                 <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#5f374f]'>Controle dos Investimentos na Bolsa de Valores</a>
                 <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#5f374f]'>Imposto de Renda da Pessoa Física</a>
                 <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#5f374f]'>Consultoria e Treinamentos</a>
+                <a href='../servicos' className='block rounded-lg px-3 py-2 text-base leading-6 text-white hover:bg-[#5f374f]'>Certificação Digital</a>
               </div>
             )}
           </div>
@@ -166,6 +167,7 @@ const NavBar = () => {
                             <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 hover:bg-gray-100'>Controle dos Investimentos na Bolsa de Valores </a>
                             <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 hover:bg-gray-100'>Imposto de Renda da Pessoa Física</a>
                             <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 hover:bg-gray-100'>Consultoria e Treinamentos</a>
+                            <a href='../servicos' className='block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 hover:bg-gray-100'>Certificação Digital</a>
                           </div>
                         </Disclosure.Panel>
                       </>

@@ -17,7 +17,7 @@ const Footer = () => {
                     </ScrollLink>
 
                     <div className='grid grid-cols-2 xl:col-span-2'>
-                        <ul className='space-y-6 mt-4 sm:ml-36'>
+                        <ul className='space-y-2 mt-4 sm:ml-36'>
                             <li>
                                 <a href='../sobre' className='text-xs sm:text-lg leading-6 text-gray-200'>Sobre</a>
                             </li>
@@ -70,7 +70,7 @@ const Footer = () => {
                         </ul>
                         
 
-                        <ul className='mt-6 space-y-6'>
+                        <ul className='mt-6 space-y-2'>
                             <li>
                                 <div className='flex gap-x-2'>
                                     <dt className='flex-none'>

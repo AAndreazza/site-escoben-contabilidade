@@ -75,7 +75,7 @@ const Post = ({ data }) => {
                     </div>
                     <div className="ml-5 h-22 w-2 bg-[#4b253c]"></div>
                     <div class="col-span-11 lg:col-span-6">
-                        <p class="sm:ml-0 ml-12 text-xl sm:text-xl font-montserrat leading-6 text-black">A Escoben Contabilidade está no mercado desde 19XX. Nosso propósito é transformar a sua empresa em um negócio de sucesso. Soluções completas para a sua gestão contábil, fiscal e trabalhista. Entre em contato!</p>
+                        <p class="sm:ml-0 ml-12 text-xl sm:text-xl font-montserrat leading-6 text-black">A Escoben Contabilidade está no mercado desde 1970, com o propósito de transformar a sua empresa em um negócio de sucesso. Oferecemos soluções completas para a sua gestão contábil, fiscal e trabalhista. Entre em contato!</p>
                     </div>
                 </div>
             </div>

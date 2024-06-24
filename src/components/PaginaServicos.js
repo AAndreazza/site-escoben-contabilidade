@@ -11,6 +11,7 @@ import ControleInvestimentos from './Servicos/ControleInvestimentos.js';
 import ImpostoRenda from './Servicos/ImpostoRenda.js';
 import Consultoria from './Servicos/Consultoria.js';
 import Banner from '../images/bannerServicos.jpg'
+import CertificacaoDigital from './Servicos/CertificacaoDigital.js';
 
 const PaginaServicos = () => {
     return (
@@ -44,6 +45,7 @@ const PaginaServicos = () => {
             <ControleInvestimentos></ControleInvestimentos>
             <ImpostoRenda></ImpostoRenda>
             <Consultoria></Consultoria>
+            <CertificacaoDigital></CertificacaoDigital>
 
             {/* FORMULARIO */}
             <div className='mt-20 sm:mt-24 mx-auto text-center'>

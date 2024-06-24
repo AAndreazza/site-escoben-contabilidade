@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from 'gatsby'
-import { getWhatsUrl } from '../../utils/index.js'
-import { CTA_WHATSAPP_MENSAGENS } from '../../utils/constants'
-import Servico from '../../images/gestaoFiscal.png'
+import { Link } from 'gatsby';
+import { getWhatsUrl } from '../../utils/index.js';
+import { CTA_WHATSAPP_MENSAGENS } from '../../utils/constants';
+import Servico from '../../images/gestaoFiscal.png';
 
 const GestaoFiscal = () => {
     return (
         <div className='font-montserrat mt-20 sm:mt-10'>
-            <div className='max-w-7xl ml-0 sm:-ml-10 px-8 sm:px-40'>
-                <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
+            <div className='max-w-7xl mx-auto px-8 sm:px-40'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-8 items-center justify-center'>
                     <img src={Servico}
-                        alt=''
-                        className='hidden lg:block lg:w-80 lg-h-80 lg:mt-20 sm:ml-20 xl:row-span-2 xl:row-end-2'
+                        alt='Gestão Fiscal'
+                        className='mx-auto lg:mx-0 lg:mt-20 lg:w-80 lg:h-80 hidden lg:block'
                     />
-                    <div className='max-w-xl lg:mt-0 xl:col-start-2 xl:col-end-3 xl:row-start-1'>
-                        <h1 className='text-3xl font-bold text-[#4b253c] sm:text-4xl lg:col-span-2 xl:col-auto' id='gestaoFiscal'>GESTAO FISCAL</h1>
+                    <div className='mx-auto lg:mx-0 lg:max-w-xl'>
+                        <h1 className='text-3xl font-bold text-[#4b253c] sm:text-4xl text-left' id='gestaoFiscal'>GESTAO FISCAL</h1>
                         <ul className='mt-6 space-y-4 text-lg leading-6 text-gray-600'>
                             <li className='flex gap-x-1'>
                                 <svg className='h-6 w-5 flex-none text-[#4b253c]' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
@@ -52,9 +52,8 @@ const GestaoFiscal = () => {
                                 </svg>
                                 Apuração dos Tributos
                             </li>
-
                         </ul>
-                        <div className='mt-10 text-center'>
+                        <div className='mt-10 text-center lg:text-left'>
                             <Link
                                 to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGestaoFiscal)}
                                 target='_blank'

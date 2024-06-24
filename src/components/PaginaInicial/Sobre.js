@@ -14,7 +14,7 @@ const Sobre = () => {
                                     <img width='100' height='100' src='https://img.icons8.com/ios/100/circled-play--v1.png' alt='circled-play--v1' />                                    </div>
                                 História
                             </dt>
-                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>A Escoben é uma empresa que atua nas áreas contábil, fiscal, trabalhista, financeira e consultorias desde 1970.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>A Escoben é uma empresa que atua nas áreas contábil, fiscal, trabalhista e financeira prestando consultoria desde 1970.</dd>
                         </div>
 
                         <div className='relative pl-16 sm:pl-24'>
@@ -31,10 +31,10 @@ const Sobre = () => {
                 </div>
             </div>
 
-            <img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-98 lg:h-60' />
+            {/*<img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-98 lg:h-60' />*/}
 
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-                <div className='mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-0 lg:max-w-4xl'>
+                <div className='mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-10 lg:max-w-4xl'>
                     <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
 
                         <div className='relative pl-16'>
@@ -43,7 +43,7 @@ const Sobre = () => {
                                     <img width='100' height='100' src='https://img.icons8.com/ios/100/test-partial-passed.png' alt='test-partial-passed' />                                    </div>
                                 Visão
                             </dt>
-                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Aspiramos ser a empresa líder no setor contábil, reconhecida pelo nosso domínio em qualidade de inovação nos serviços que prestamos.</dd>
+                            <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Aspiramos ser a empresa líder no setor contábil, reconhecida pelo nosso domínio em qualidade e inovação nos serviços que prestamos.</dd>
                         </div>
 
                         <div className='relative pl-16 sm:pl-24'>

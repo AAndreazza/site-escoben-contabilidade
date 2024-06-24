@@ -15,4 +15,5 @@ export const CTA_WHATSAPP_MENSAGENS = {
   ctaControleInvestimento: 'Olá! Estive no site e fiquei interessado no serviço de controle dos investimentos na bolsa de valores. Poderia me ajudar?',
   ctaImpostoRenda: 'Olá! Estive no site e fiquei interessado no serviço de imposto de renda de pessoa física. Poderia me ajudar?',
   ctaConsultoria: 'Olá! Estive no site e fiquei interessado no serviço de consultoria e/ou treinamentos. Poderia me ajudar?',
+  ctaCertificacao: 'Olá! Estive no site e fiquei interessado no serviço de certificação digital. Poderia me ajudar?',
 }

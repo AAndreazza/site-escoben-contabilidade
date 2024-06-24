@@ -22,7 +22,7 @@ const conteudoComercio = [
 ]
 
 const conteudoServicos = [
-    { nome: "Administradora de Bens" },
+    { nome: "Administradoras de Bens/Holdings" },
     { nome: "Advocacias" },
     { nome: "Arquiteturas" },
     { nome: "Clínicas Médicas" },
