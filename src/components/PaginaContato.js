@@ -11,12 +11,12 @@ const PaginaContato = () => {
     return (
         <div>
             {/* MENUS + BANNER CONTATO */}
-            <div className='relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
+            <div className='mt-28 relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>CONTATO</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Fale conosco</p>
-                <Header></Header>
             </div>
+            <Header></Header>
 
             {/* LOGO + TEXTO */}
             <div className='py-20'>

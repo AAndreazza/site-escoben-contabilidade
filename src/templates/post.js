@@ -48,12 +48,12 @@ const Post = ({ data }) => {
         <div className='font-montserrat bg-gray-100'>
             <Seo title={data.contentfulPost.titulo} description='' />
             {/* MENUS + BANNER BLOG */}
-            <div className="relative bg-[#4b253c] py-32 sm:py-56">
+            <div className="mt-28 relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80">
                 <img src={data.contentfulPost.imagemApresentacao.resize.src} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 class="mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]">{data.contentfulPost.categoria}</h2>
                 <p class="mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]">{data.contentfulPost.titulo}</p>
-                <HeaderPost></HeaderPost>
             </div>
+            <HeaderPost></HeaderPost>
 
             <WhatsappIcon></WhatsappIcon>
 
