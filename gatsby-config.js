@@ -13,6 +13,12 @@ module.exports = {
                 accessToken:  process.env.CONTENTFUL_ACCESS_TOKEN,
                 downloadLocal: true,
             }
+        },
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+                icon: 'src/images/logoFavicon.png',
+            }
         }
     ]
 }
