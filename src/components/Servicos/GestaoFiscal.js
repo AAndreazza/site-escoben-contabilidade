@@ -6,7 +6,7 @@ import Servico from '../../images/gestaoFiscal.png';
 
 const GestaoFiscal = () => {
     return (
-        <div className='font-montserrat mt-20 sm:mt-10'>
+        <div className='font-montserrat mt-20 sm:mt-20'>
             <div className='max-w-7xl mx-auto px-8 sm:px-40'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-8 items-center justify-center'>
                     <img src={Servico}

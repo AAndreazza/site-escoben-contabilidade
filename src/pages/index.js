@@ -10,14 +10,14 @@ import Servicos from '../components/PaginaInicial/Servicos'
 import Sobre from '../components/PaginaInicial/Sobre'
 import Footer from '../components/Footer'
 import ProvasSociais from '../components/PaginaInicial/ProvasSociais'
-import Banner from '../images/banner.png'
+import Banner from '../images/bannerHome.jpg'
 
 const Index = () => {
     return (
         <div className='bg-gray-100 font-montserrat'>
             <Seo title='' description='' />
             {/* MENUS + BANNER BLOG */}
-            <div className="sm:static relative font-montserrat bg-[#4b253c] py-28 sm:py-0 sm:-mb-44">
+            {/*<div className="sm:static relative font-montserrat bg-[#4b253c] py-28 sm:py-0 sm:-mb-44">
                 <img src={Banner} alt='homem de óculos' className='absolute inset-0 sm:inset-y-28 h-full w-full object-cover opacity-10 sm:opacity-100'/>
                 <div className='sm:absolute sm:inset-0 sm:mt-10 mx-8 sm:mx-20'>
                 <p class="mt-8 sm:mt-48 lg:mt-60 mr-20 sm:mr-0 text-base text-[#c996bf] sm:text-[#4b253c] font-semibold sm:text-2xl mb-2 sm:mb-4">Contabilidade com sede em Benedito Novo</p>
@@ -44,8 +44,22 @@ const Index = () => {
                 </div>
                 </div>
             </div>
+            <Header></Header> */}
 
+            <div className='mt-28 relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
+                <img src={Banner} alt='Equipe Escoben' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
+                <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>AJUSTAR</h2>
+                <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>BANNER</p>
+                {/*
+                <p class="mt-10 mx-auto text-center font-montserrat sm:text-2xl font-bold text-[#e4d5e7] max-w-2xl text-base">Contabilidade com sede em Benedito Novo</p>
+                <h2 class="mt-4 mx-auto text-center font-montserrat text-xl sm:text-2xl font-bold text-[#e4d5e7] max-w-2xl">NOSSO PROPÓSITO É TRANSFORMAR A SUA EMPRESA EM UM NEGÓCIO DE SUCESSO!</h2>
+                <p class="mt-4 mx-auto text-center font-montserrat text-xl sm:text-2xl font-bold text-[#e4d5e7] max-w-2xl">Soluções completas para a gestão contábil, fiscal e financeira da sua empresa.</p>
+                */}
+             
+            </div>
             <Header></Header>
+
+            
             <WhatsappIcon></WhatsappIcon>
             <Especialidades></Especialidades>
             <Servicos></Servicos>

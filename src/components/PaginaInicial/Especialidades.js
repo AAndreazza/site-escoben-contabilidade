@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 const Especialidades = () => {
     return (
-        <div className='mt-0 md:mt-40 xl:mt-80 py-14 sm:py-24 lg:py-80 font-montserrat'>
-            <div className='mx-auto max-w-7xl xl:mt-80'>
+        <div className='mt-10 font-montserrat'>
+            <div className='mx-auto max-w-7xl'>
                 <div className='mx-auto text-center'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-[#e6d4e2]'>ESPECIALIDADES</h2>
                     <p className='mt-0 text-xl font-semibold text-gray-900 sm:text-4xl'>Serviços de Contabilidade Especializados para:</p>
@@ -12,7 +12,7 @@ const Especialidades = () => {
                     <p className='text-base text-gray-900 sm:text-2xl sm:mx-0 mx-12'>Uma <b>contabilidade</b> que conhece o seu negócio</p>
                 </div>
                 <div className='mx-auto mt-10 max-w-2xl sm:mt-20 lg:mt-20 lg:max-w-none'>
-                    <dl className='grid max-w-xl grid-cols-1 gap-x-6 gap-y-12 lg:max-w-none lg:grid-cols-3 text-center'>
+                    <dl className='grid max-w-xl grid-cols-1 gap-x-6 gap-y-12 lg:max-w-none lg:grid-cols-3 text-center mx-auto'>
                         <div className='flex flex-col items-center justify-center'>
                             <img className='h-20 w-20 mb-5' src='https://img.icons8.com/ios-glyphs/90/refund-2.png' alt='refund-2' />
                             <h2 className='text-2xl font-semibold leading-7 text-gray-900'>

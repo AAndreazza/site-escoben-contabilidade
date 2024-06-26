@@ -10,14 +10,14 @@ import GestaoSocietaria from './Servicos/GestaoSocietaria.js';
 import ControleInvestimentos from './Servicos/ControleInvestimentos.js';
 import ImpostoRenda from './Servicos/ImpostoRenda.js';
 import Consultoria from './Servicos/Consultoria.js';
-import Banner from '../images/bannerServicos.jpg'
+import Banner from '../images/bannerServico.jpg'
 import CertificacaoDigital from './Servicos/CertificacaoDigital.js';
 
 const PaginaServicos = () => {
     return (
         <div>
             {/* MENUS + BANNER SERVICOS */}
-            <div className='relative bg-[#4b253c] py-32 sm:py-56'>
+            <div className='relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
                 <img src={Banner} alt='uma pessoa usando o notebook' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>SERVIÇOS</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Nossos serviços</p>

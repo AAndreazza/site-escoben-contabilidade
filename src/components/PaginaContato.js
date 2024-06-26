@@ -5,13 +5,13 @@ import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Logo from '../images/logoHorizRoxa.png'
-import Banner from '../images/bannerContato.jpg'
+import Banner from '../images/bannerContato.png'
 
 const PaginaContato = () => {
     return (
         <div>
             {/* MENUS + BANNER CONTATO */}
-            <div className='relative bg-[#4b253c] py-32 sm:py-56'>
+            <div className='relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>CONTATO</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Fale conosco</p>
@@ -35,7 +35,7 @@ const PaginaContato = () => {
             <div className='flex flex-col md:flex-row'>
 
                 {/* FORMULARIO */}
-                <div className='isolate px-6 mb-20 lg:px-20 font-montserrat'>
+                <div className='isolate px-6 mb-20 lg:px-20 2xl:px-0 2xl:pl-60 font-montserrat mx-auto'>
 
                     <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#4b253c] bg-[#4b253c] shadow-2xl'>
                         <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
@@ -58,7 +58,7 @@ const PaginaContato = () => {
 
                 {/* CONTATOS */}
 
-                <ul className='space-y-6 font-montserrat mb-5'>
+                <ul className='space-y-6 font-montserrat mb-5 mx-auto'>
                     <li>
                         <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>

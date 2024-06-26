@@ -6,11 +6,11 @@ import Servico from '../../images/impostoRenda.png'
 
 const ImpostoRenda = () => {
     return (
-        <div className='font-montserrat mt-20 sm:mt-10'>
+        <div className='font-montserrat mt-20 sm:mt-20'>
             <div className='max-w-7xl mx-auto px-8 sm:px-40'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-8 items-center justify-center'>
                     <img src={Servico}
-                        alt=''
+                        alt='Imposto de renda'
                         className='mx-auto lg:mx-0 lg:mt-20 lg:w-80 lg:h-80 hidden lg:block'
                     />
                     <div className='mx-auto lg:mx-0 lg:max-w-xl'>

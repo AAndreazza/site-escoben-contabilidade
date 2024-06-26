@@ -9,7 +9,7 @@ const PaginaSobre = () => {
     return (
         <div>
             {/* MENUS + BANNER ESPECIALIDADES */}
-            <div className='relative bg-[#4b253c] px-6 py-36 sm:py-56 lg:px-8'>
+            <div className='relative bg-[#4b253c] px-6 py-36 sm:py-56 2xl:py-80 lg:px-8'>
                 <img src={Banner} alt='duas pessoas rindo' className='opacity-25 absolute inset-0 h-full w-full object-cover'/>
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-4xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>SOBRE NÓS</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-lg sm:text-3xl font-bold text-[#e4d5e7]'>Conheça a Escoben</p>

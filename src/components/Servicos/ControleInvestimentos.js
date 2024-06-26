@@ -9,7 +9,7 @@ const ControleInvestimentos = () => {
         <div className='font-montserrat mt-20 sm:mt-20'>
             <div className='mx-auto max-w-7xl px-8 sm:px-40'>
                 <div className='grid lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8'>
-                    <h1 className='text-3xl font-bold text-[#4b253c] mx-auto sm:text-4xl lg:col-span-2 xl:col-auto' id='controleInvestimentos'>CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
+                    <h1 className='text-3xl font-bold text-[#4b253c] sm:text-4xl lg:col-span-2 xl:col-auto' id='controleInvestimentos'>CONTROLE DOS <br />INVESTIMENTOS <br />NA BOLSA DE VALORES</h1>
                     <div className='mt-6 max-w-xl lg:mt-2 xl:col-end-1 xl:row-start-1'>
                         <h2 className='text-lg leading-7 text-gray-800'>
                             Para a realização desse serviço, <br />entre em contato conosco.

@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className='flex lg:flex-1'>
           <a href='/'>
             <span className='sr-only'>Escoben Contabilidade</span>
-            <img className='h-10 w-auto' src={Logo} alt='Logo da Escoben' />
+            <img className='h-10 w-auto lg:h-5 xl:h-10' src={Logo} alt='Logo da Escoben' />
           </a>
         </div>
 
@@ -35,7 +35,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className='hidden lg:flex lg:gap-x-8'>
+        <div className='hidden lg:flex lg:gap-x-4 xl:gap-x-8'>
           <a href='../../sobre' className='mt-2 text-base leading-6 text-[#4b253c] font-semibold'>Sobre</a>
 
           <div className='relative'>

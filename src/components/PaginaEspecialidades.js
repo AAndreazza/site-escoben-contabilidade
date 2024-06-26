@@ -6,7 +6,7 @@ import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js';
 import Logo from '../images/logoHorizRoxa.png'
-import Banner from '../images/bannerEspecialidades.jpg'
+import Banner from '../images/bannerEspecialidade.jpg'
 
 const conteudoComercio = [
     { nome: "Supermercados" },
@@ -50,7 +50,7 @@ const PaginaEspecialidades = () => {
     return (
         <div>
             {/* MENUS + BANNER ESPECIALIDADES */}
-            <div className='relative bg-[#4b253c] py-32 sm:py-56'>
+            <div className='relative bg-[#4b253c] py-32 sm:py-56 2xl:py-80'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>ESPECIALIDADES</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>Serviços de Contabilidade Especializados</p>

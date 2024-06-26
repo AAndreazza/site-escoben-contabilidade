@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../images/logoVerticalRoxaCompleta.png'
 
 const Sobre = () => {
     return (
@@ -17,9 +16,9 @@ const Sobre = () => {
                             <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>A Escoben é uma empresa que atua nas áreas contábil, fiscal, trabalhista e financeira prestando consultoria desde 1970.</dd>
                         </div>
 
-                        <div className='relative pl-16 sm:pl-24'>
+                        <div className='relative pl-16'>
                             <dt className='text-xl font-semibold leading-7 text-[#4b253c]'>
-                                <div className='absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
                                     <img width='100' height='100' src='https://img.icons8.com/ios/100/goal--v1.png' alt='goal--v1' />
                                 </div>
                                 Missão
@@ -33,7 +32,7 @@ const Sobre = () => {
 
             {/*<img src={Logo} alt='Logo Escoben Contabilidade' className='hidden lg:block mx-auto mt-4 mb-4 lg:w-98 lg:h-60' />*/}
 
-            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-6 lg:px-8 mt-10'>
                 <div className='mx-auto mt-10 max-w-2xl sm:mt-0 lg:mt-10 lg:max-w-4xl'>
                     <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
 
@@ -46,9 +45,9 @@ const Sobre = () => {
                             <dd className='mt-2 text-lg leading-7 text-[#3f2444]'>Aspiramos ser a empresa líder no setor contábil, reconhecida pelo nosso domínio em qualidade e inovação nos serviços que prestamos.</dd>
                         </div>
 
-                        <div className='relative pl-16 sm:pl-24'>
+                        <div className='relative pl-16'>
                             <dt className='text-xl font-semibold leading-7 text-[#4f2158]'>
-                                <div className='absolute left-0 sm:left-8 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
+                                <div className='absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-3xl border-8 border-[#e4d5e7] bg-[#e4d5e7]'>
                                     <img width='100' height='100' src='https://img.icons8.com/ios/100/batch-assign.png' alt='batch-assign' />                                    </div>
                                 Profissionais Capacitados
                             </dt>
