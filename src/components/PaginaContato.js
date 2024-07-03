@@ -4,8 +4,8 @@ import { getWhatsUrl } from '../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from './Footer.js';
-import Logo from '../images/logoHorizRoxa.png'
-import Banner from '../images/bannerContato.png'
+import Logo from '../images/logoHorizRoxa.webp'
+import Banner from '../images/bannerContato.webp'
 
 const PaginaContato = () => {
     const [nome, setNome] = useState('');

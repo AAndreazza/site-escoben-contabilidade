@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'gatsby';
-import Logo from '../images/logoHorizRoxa.png';
+import Logo from '../images/logoHorizRoxa.webp';
 import { URLS } from '../utils/constants';
 
 const NavBar = () => {

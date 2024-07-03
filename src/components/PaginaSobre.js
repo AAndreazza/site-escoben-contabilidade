@@ -3,7 +3,7 @@ import Header from './Header.js'
 import Sobre from './PaginaInicial/Sobre.js';
 import Footer from './Footer.js';
 import Formulario from './Formulario.js';
-import Banner from '../images/bannerSobre.jpg'
+import Banner from '../images/bannerSobre.webp'
 
 const PaginaSobre = () => {
     return (

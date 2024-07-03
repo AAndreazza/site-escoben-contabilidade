@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { Link as ScrollLink } from 'react-scroll'
 import { getWhatsUrl } from '../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
-import Logo from '../images/logoHorizBrancaCompleta.png'
+import Logo from '../images/logoHorizBrancaCompleta.webp'
 import Icon from '../images/icon-clock.svg'
 
 const Footer = () => {
@@ -139,7 +139,7 @@ const Footer = () => {
                                 <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Horario</span>
-                                        <img src={Icon} className='h-6 w-6 sm:h-8 sm:w-8 text-gray-200' />
+                                        <img src={Icon} className='h-6 w-6 sm:h-8 sm:w-8 text-gray-200' alt='icone'/>
                                     </dt>
                                     <dd className='text-gray-200 text-xs sm:text-lg'>Horário de funcionamento: Segunda a Sexta, das 8h00 às 17h15</dd>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby'
 import { getWhatsUrl } from '../../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS } from '../../utils/constants'
-import Servico from '../../images/contabilidade.png'
+import Servico from '../../images/contabilidade.webp'
 
 const Contabilidade = () => {
     return (

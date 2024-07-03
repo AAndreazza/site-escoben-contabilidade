@@ -5,8 +5,8 @@ import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js';
-import Logo from '../images/logoHorizRoxa.png'
-import Banner from '../images/bannerEspecialidade.jpg'
+import Logo from '../images/logoHorizRoxa.webp'
+import Banner from '../images/bannerEspecialidade.webp'
 
 const conteudoComercio = [
     { nome: "Supermercados" },

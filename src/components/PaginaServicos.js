@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header.js'
 import Footer from './Footer.js';
 import Formulario from './Formulario.js'
-import Logo from '../images/logoHorizRoxa.png'
+import Logo from '../images/logoHorizRoxa.webp'
 import Contabilidade from './Servicos/Contabilidade.js';
 import GestaoFiscal from './Servicos/GestaoFiscal.js';
 import GestaoTrabalhista from './Servicos/GestaoTrabalhista.js';
@@ -10,7 +10,7 @@ import GestaoSocietaria from './Servicos/GestaoSocietaria.js';
 import ControleInvestimentos from './Servicos/ControleInvestimentos.js';
 import ImpostoRenda from './Servicos/ImpostoRenda.js';
 import Consultoria from './Servicos/Consultoria.js';
-import Banner from '../images/bannerServico.jpg'
+import Banner from '../images/bannerServico.webp'
 import CertificacaoDigital from './Servicos/CertificacaoDigital.js';
 
 const PaginaServicos = () => {

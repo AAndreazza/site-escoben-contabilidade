@@ -6,7 +6,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Seo from '../components/Seo'
 import HeaderPost from '../components/HeaderPost'
 import WhatsappIcon from '../components/WhatsappIcon'
-import Logo from '../images/logoHorizRoxa.png'
+import Logo from '../images/logoHorizRoxa.webp'
 import Footer from '../components/Footer'
 
 const options = {

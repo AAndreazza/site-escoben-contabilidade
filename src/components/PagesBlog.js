@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Header from './Header.js'
 import Footer from './Footer.js';
-import Banner from '../images/bannerBlog.jpg'
+import Banner from '../images/bannerBlog.webp'
 
 const POSTS_QUERY = graphql`
 query {
