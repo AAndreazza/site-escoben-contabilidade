@@ -26,7 +26,7 @@ const Formulario = () => {
     return (
         <div className='isolate px-6 -mt-10 mb-20 lg:px-8 font-montserrat'>
             <form
-                action='/'
+                action='/sucesso/'
                 name='FORMULARIO-ESCOBEN'
                 method='post'
                 netlify-honeypot='bot-field'

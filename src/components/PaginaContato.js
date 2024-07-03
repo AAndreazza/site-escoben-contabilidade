@@ -60,7 +60,7 @@ const PaginaContato = () => {
                 <div className='isolate px-6 mb-20 lg:px-20 2xl:px-0 2xl:pl-60 font-montserrat mx-auto'>
 
                     <form
-                        action='/'
+                        action='/sucesso/'
                         name='FORMULARIO-ESCOBEN'
                         method='post'
                         netlify-honeypot='bot-field'
@@ -127,7 +127,7 @@ const PaginaContato = () => {
                         <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Whatsapp</span>
-                                <Link to=''>
+                                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)} target='_blank'>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
                                         className='h-7 w-6 text-[#4b253c]'
@@ -160,7 +160,7 @@ const PaginaContato = () => {
                         <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Instagram</span>
-                                <Link to={URLS.instagram}>
+                                <Link to={URLS.instagram} target='_blank'>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
                                         className='h-7 w-6 text-[#4b253c]'
@@ -180,13 +180,13 @@ const PaginaContato = () => {
                         <div className='flex gap-x-4 mx-8'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Endereco</span>
-                                <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
+                                <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8' target='_blank'>
                                     <svg className='h-7 w-6 text-[#4b253c]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                                         <path stroke-linecap='round' stroke-linejoin='round' d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z' />
                                     </svg>
                                 </Link>
                             </dt>
-                            <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8'>
+                            <Link to='https://maps.app.goo.gl/TyZXexCdy5FzSrjT8' target='_blank'>
                                 <dd className='text-xl text-[#4b253c]'>R. Celso Ramos, 4225 - 2º piso - Centro, Benedito Novo - SC, 89124-000</dd>
                             </Link>
                         </div>
