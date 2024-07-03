@@ -82,8 +82,6 @@ const Formulario = () => {
                     />
                     {errors.mensagem && <span className='text-red-100 text-sm'>{errors.mensagem}</span>}
                 </div>
-                <input type='hidden' name='_next' value='https://escobencontabilidade.netlify.app/' />
-                <input type='hidden' name='_captcha' value='false' />
 
                 <div className='mt-10 sm:mt-10 mb-5 text-center'>
                     <button

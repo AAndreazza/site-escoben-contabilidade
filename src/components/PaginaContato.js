@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby'
 import { getWhatsUrl } from '../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
@@ -8,6 +8,28 @@ import Logo from '../images/logoHorizRoxa.png'
 import Banner from '../images/bannerContato.png'
 
 const PaginaContato = () => {
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [telefone, setTelefone] = useState('');
+    const [mensagem, setMensagem] = useState('');
+    const [errors, setErrors] = useState({});
+
+    const validateFields = () => {
+        const newErrors = {};
+        if (!nome) newErrors.nome = 'Preencha este campo.';
+        if (!email) newErrors.email = 'Preencha este campo.';
+        if (!telefone) newErrors.telefone = 'Preencha este campo.';
+        if (!mensagem) newErrors.mensagem = 'Preencha este campo.';
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
+    };
+
+    const handleSubmit = (event) => {
+        if (!validateFields()) {
+            event.preventDefault();
+        }
+    };
+
     return (
         <div>
             {/* MENUS + BANNER CONTATO */}
@@ -37,18 +59,45 @@ const PaginaContato = () => {
                 {/* FORMULARIO */}
                 <div className='isolate px-6 mb-20 lg:px-20 2xl:px-0 2xl:pl-60 font-montserrat mx-auto'>
 
-                    <form action='https://formsubmit.co/alanaandreazza26@gmail.com' method='POST' className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#4b253c] bg-[#4b253c] shadow-2xl'>
-                        <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <textarea name='mensagem' id='mensagem' rows='4' placeholder='Mensagem' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
-                        <input type='hidden' name='_next' value='https://escobencontabilidade.netlify.app/' />
-                        <input type='hidden' name='_captcha' value='false' />
+                    <form
+                        action='/'
+                        name='FORMULARIO-ESCOBEN'
+                        method='post'
+                        netlify-honeypot='bot-field'
+                        data-netlify='true'
+                        className='mx-auto max-w-xl rounded-3xl p-8 ring-2 ring-[#4b253c] bg-[#4b253c] shadow-2xl'
+                        onSubmit={handleSubmit}
+                    >
+                        <input type='hidden' name='form-name' value='FORMULARIO-ESCOBEN' />
 
+                        <div>
+                            <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
+                                onChange={(event) => setNome(event.target.value)} />
+                            {errors.nome && <span className='text-red-100 text-sm'>{errors.nome}</span>}
+                        </div>
+                        <div>
+                            <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
+                                onChange={(event) => setEmail(event.target.value)} />
+                            {errors.email && <span className='text-red-100 text-sm'>{errors.email}</span>}
+                        </div>
+                        <div>
+                            <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
+                                onChange={(event) => setTelefone(event.target.value)} />
+                            {errors.telefone && <span className='text-red-100 text-sm'>{errors.telefone}</span>}
+                        </div>
+                        <div>
+                            <textarea name='mensagem' id='mensagem' rows='4' placeholder='Mensagem' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 sm:py-3 sm:mt-4  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
+                                onChange={(event) => setMensagem(event.target.value)} />
+                            {errors.mensagem && <span className='text-red-100 text-sm'>{errors.mensagem}</span>}
+                        </div>
                         <div className='mt-10 sm:mt-10 mb-10 text-center'>
                             <button
                                 type='submit'
-                                className='rounded-full bg-[#d6c5d3] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-2 font-semibold text-lg text-[#31182c] shadow-sm hover:bg-[#ebe1e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                className={`rounded-full bg-[#d6c5d3] drop-shadow-2xl px-8 py-4 sm:px-36 sm:py-2 font-semibold text-lg text-[#31182c] shadow-sm hover:bg-[#ebe1e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
+                                    ${nome && email && telefone && mensagem
+                                        ? 'bg-[#be9fb9] hover:bg-[#ebe1e8] cursor-pointer'
+                                        : 'bg-[#d6c5d3] hover:bg-[#ebe1e8] cursor-not-allowed'
+                                    }`}
                             >
                                 Enviar mensagem
                             </button>
