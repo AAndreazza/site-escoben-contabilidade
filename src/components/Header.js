@@ -12,6 +12,7 @@ const NavBar = () => {
     setOpenMenu(openMenu === menuName ? null : menuName);
   };
 
+// b987a6
   return (
     <header className='absolute inset-x-0 top-0 z-50 bg-gray-50 mt-5 mx-5 lg:mx-2 rounded-full font-montserrat' id='inicial'>
       <nav className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-2' aria-label='Global'>
