@@ -6,7 +6,7 @@ import PagesBlog from '../components/PagesBlog'
 const Blog = () => {
     return (
         <div className='bg-gray-100 font-montserrat'> 
-            <Seo title='' description='' />
+            <Seo title='Escoben Contabilidade - Blog' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PagesBlog></PagesBlog>
         </div>

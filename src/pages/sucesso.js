@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Seo from '../components/Seo'
 import Logo from '../images/logoHorizRoxa.webp'
 import { getWhatsUrl } from '../utils/index.js'
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 
 const Sucesso = () => (
   <div className="min-h-screen sm:pt-16 pb-12 flex flex-col bg-gray-100 font-montserrat">
+    <Seo title='Escoben Contabilidade' description='' />
     <main className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex-shrink-0 flex justify-center">
         <Link to="/" className="inline-flex">

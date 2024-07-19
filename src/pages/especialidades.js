@@ -6,7 +6,7 @@ import PaginaEspecialidades from '../components/PaginaEspecialidades'
 const Especialidades = () => {
     return (
         <div className='bg-gray-100 font-montserrat'>
-            <Seo title='' description='' />
+            <Seo title='Escoben Contabilidade - Especialidades' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PaginaEspecialidades></PaginaEspecialidades>
         </div>

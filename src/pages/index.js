@@ -15,10 +15,10 @@ import Banner from '../images/bannerHome.webp'
 const Index = () => {
     return (
         <div className='bg-gray-100 font-montserrat'>
-            <Seo title='' description='' />
+            <Seo title='Escoben Contabilidade' description='' />
             {/* MENUS + BANNER BLOG */}
 
-            <div className='flex flex-col items-center justify-center min-h-screen -mt-16 sm:mt-0 sm:pt-20 2xl:-mt-28 mx-4 sm:mx-auto'>
+            <div className='flex flex-col items-center justify-center min-h-screen -mt-10 sm:mt-0 sm:pt-20 2xl:-mt-28 mx-4 sm:mx-auto'>
                 <p class="text-base text-[#4b253c] font-semibold sm:text-3xl 2xl:text-4xl mb-2 sm:mb-4 text-center">Contabilidade com sede em Benedito Novo</p>
                 <h2 class="text-xl max-w-3xl 2xl:max-w-4xl sm:text-3xl 2xl:text-4xl font-bold text-[#884970] mb-2 text-center">NOSSO PROPÓSITO É TRANSFORMAR A SUA EMPRESA EM UM NEGÓCIO DE SUCESSO!</h2>
                 <p class="mt-0 max-w-lg 2xl:max-w-2xl text-[#4b253c] text-base sm:text-xl 2xl:text-2xl text-center">Soluções completas para a gestão contábil, fiscal e financeira da sua empresa.</p>

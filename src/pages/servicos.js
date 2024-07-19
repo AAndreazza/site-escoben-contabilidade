@@ -6,7 +6,7 @@ import PaginaServicos from '../components/PaginaServicos'
 const Servicos = () => {
     return (
         <div className='bg-gray-100 font-montserrat'>
-            <Seo title='' description='' />
+            <Seo title='Escoben Contabilidade - Serviços' description='' />
             <WhatsappIcon></WhatsappIcon>
             <PaginaServicos></PaginaServicos>
         </div>
