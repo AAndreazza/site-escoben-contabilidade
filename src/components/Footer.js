@@ -68,7 +68,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </ul>
-                        
+
 
                         <ul className='mt-6 space-y-2'>
                             <li>
@@ -139,16 +139,19 @@ const Footer = () => {
                                 <div className='flex gap-x-2'>
                                     <dt className='flex-none'>
                                         <span className='sr-only'>Horario</span>
-                                        <img src={Icon} className='h-6 w-6 sm:h-8 sm:w-8 text-gray-200' alt='icone'/>
+                                        <img src={Icon} className='h-6 w-6 sm:h-8 sm:w-8 text-gray-200' alt='icone' />
                                     </dt>
                                     <dd className='text-gray-200 text-xs sm:text-lg'>Horário de funcionamento: Segunda a Sexta, das 8h00 às 17h15</dd>
 
                                 </div>
                             </li>
-                            
+
 
                         </ul>
                     </div>
+                </div>
+                <div class="mt-10 border-t border-gray-300/90 pt-8 sm:mt-10">
+                    <p class="text-xs text-center sm:text-sm sm:text-left leading-5 text-gray-300 font-montserrat">Desenvolvido por Alana Andreazza / Zafa Marketing</p>
                 </div>
             </div>
         </footer>
